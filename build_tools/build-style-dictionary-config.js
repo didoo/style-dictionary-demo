@@ -6,20 +6,7 @@ function getStyleDictionaryConfig(brand, platform) {
     return {
         "source": [
             `src/brands/${brand}/*.json`,
-            "src/globals/base/*.json",
-            "src/globals/avatar/*.json",
-            "src/globals/brick/*.json",
-            "src/globals/button/*.json",
-            "src/globals/color/*.json",
-            "src/globals/gift/*.json",
-            "src/globals/icon/*.json",
-            "src/globals/input/*.json",
-            "src/globals/mark/*.json",
-            "src/globals/modal/*.json",
-            "src/globals/onlinestatus/*.json",
-            "src/globals/spacing/*.json",
-            "src/globals/tabbar/*.json",
-            "src/globals/typography/*.json",
+            "src/globals/**/*.json",
             `src/platforms/${platform}/*.json`
         ],
         "platforms": {

@@ -1,11 +1,11 @@
 {
     "font_family": {
         "system": {
-            "value": "TODO",
+            "value": "sans-serif",
             "category": "typography"
         },
         "custom": {
-            "value": "TODO",
+            "value": "@font/uni_neue",
             "category": "typography"
         }
     }

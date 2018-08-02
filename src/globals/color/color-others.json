@@ -4,34 +4,17 @@
             "value": "{color.primary.value}"
         },
         "action_destructive": {
-            "value": "{color.red_carrot.value}"
+            "value": "{color.red.value}"
         },
         "border": {
             "value": "{color.gray_12.value}"
         },
-        "popularity": {
-            "veryhigh": {
-                "value": "{color.green_grass.value}"
+        "user": {
+            "authenticated": {
+                "value": "{color.green.value}"
             },
-            "high": {
-                "value": "{color.green_grass.value}"
-            },
-            "average": {
-                "value": "{color.yellow_sun.value}"
-            },
-            "low": {
-                "value": "{color.red_carrot.value}"
-            },
-            "verylow": {
-                "value": "{color.red_carrot.value}"
-            }
-        },
-        "online_status": {
-            "online": {
-                "value": "{color.green_grass.value}"
-            },
-            "idle": {
-                "value": "{color.yellow_sun.value}"
+            "anonymous": {
+                "value": "{color.gray_40.value}"
             }
         }
     }

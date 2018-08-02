@@ -2,7 +2,7 @@
 //
 // StyleDictionaryColor.h
 //
-// Do not edit directly, generated on Thu Aug 02 2018 10:40:38 GMT+0100 (BST)
+// Do not edit directly, generated on Fri Aug 03 2018 00:39:09 GMT+0100 (BST)
 //
 
 #import <UIKit/UIKit.h>
@@ -11,35 +11,15 @@
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
 ColorPrimary,
 ColorSecondary,
-ColorRedCarrot,
-ColorPinkRose,
-ColorYellowSun,
-ColorGreenDew,
-ColorGreenGrass,
-ColorPurpleLavanda,
-ColorBlueSky,
-ColorBlueRain,
-ColorProductAttentionBoost,
-ColorProductBilling,
-ColorProductBoost,
-ColorProductBump,
-ColorProductBundleSale,
-ColorProductChatQuota,
-ColorProductChatWithNewbies,
-ColorProductChatWithTired,
-ColorProductCriteria,
-ColorProductCrush,
-ColorProductExtraShows,
-ColorProductFavourites,
-ColorProductInvisibleMode,
-ColorProductLikedYou,
-ColorProductNeverLooseAccount,
-ColorProductRiseup,
-ColorProductSpecialDelivery,
-ColorProductSpotlight,
-ColorProductSpp,
-ColorProductUndo,
-ColorProductVerification,
+ColorGreen,
+ColorBlue,
+ColorYellow,
+ColorAzur,
+ColorRed,
+ColorFeatureChat,
+ColorFeatureBlog,
+ColorFeatureShop,
+ColorFeatureSettings,
 ColorBlack,
 ColorGray60,
 ColorGray40,
@@ -49,20 +29,15 @@ ColorGray3,
 ColorActionPrimary,
 ColorActionDestructive,
 ColorBorder,
-ColorPopularityVeryhigh,
-ColorPopularityHigh,
-ColorPopularityAverage,
-ColorPopularityLow,
-ColorPopularityVerylow,
-ColorOnlineStatusOnline,
-ColorOnlineStatusIdle,
-ColorProviderFacebook,
-ColorProviderTwitter,
-ColorProviderVkontakte,
-ColorProviderOdnoklassniki,
-ColorProviderGoogle,
-ColorProviderInstagram,
-ColorProviderLinkedin
+ColorUserAuthenticated,
+ColorUserAnonymous,
+ColorSocialFacebook,
+ColorSocialTwitter,
+ColorSocialVkontakte,
+ColorSocialOdnoklassniki,
+ColorSocialGoogle,
+ColorSocialInstagram,
+ColorSocialLinkedin
 };
 
 @interface StyleDictionaryColor : NSObject

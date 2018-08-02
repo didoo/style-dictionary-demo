@@ -6,29 +6,20 @@
         "secondary": {
             "value": "{alias.color.brand.secondary.value}"
         },
-        "red_carrot": {
-            "value": "#ff661b"
+        "green": {
+            "value": "#4A8C70"
         },
-        "pink_rose": {
-            "value": "#ff4278"
+        "blue": {
+            "value": "#14213D"
         },
-        "yellow_sun": {
-            "value": "#ffc831"
+        "yellow": {
+            "value": "#FCA311"
         },
-        "green_dew": {
-            "value": "#00caa8"
+        "azur": {
+            "value": "#ADE8F7"
         },
-        "green_grass": {
-            "value": "#17d417"
-        },
-        "purple_lavanda": {
-            "value": "#7000e3"
-        },
-        "blue_sky": {
-            "value": "#1ab0ff"
-        },
-        "blue_rain": {
-            "value": "#2b8cfc"
+        "red": {
+            "value": "#BF0603"
         }
     }
 }

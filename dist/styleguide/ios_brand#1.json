@@ -38,237 +38,52 @@
     ]
   },
   {
-    "value": "10px",
-    "original": {
-      "value": "10px"
-    },
-    "name": "token-base-border-radius",
-    "attributes": {
-      "category": "base",
-      "type": "border_radius"
-    },
-    "path": [
-      "base",
-      "border_radius"
-    ]
-  },
-  {
-    "value": "#949494",
-    "original": {
-      "value": "{color.gray_40.value}"
-    },
-    "name": "token-avatar-placeholder-color-default",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_default"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_default"
-    ]
-  },
-  {
-    "value": "#ff4000",
-    "original": {
-      "value": "#ff4000"
-    },
-    "name": "token-avatar-placeholder-color-variant-1",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_1"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_1"
-    ]
-  },
-  {
-    "value": "#ff4278",
-    "original": {
-      "value": "#ff4278"
-    },
-    "name": "token-avatar-placeholder-color-variant-2",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_2"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_2"
-    ]
-  },
-  {
-    "value": "#ff8201",
-    "original": {
-      "value": "#ff8201"
-    },
-    "name": "token-avatar-placeholder-color-variant-3",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_3"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_3"
-    ]
-  },
-  {
-    "value": "#ffc831",
-    "original": {
-      "value": "#ffc831"
-    },
-    "name": "token-avatar-placeholder-color-variant-4",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_4"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_4"
-    ]
-  },
-  {
-    "value": "#00caa8",
-    "original": {
-      "value": "#00caa8"
-    },
-    "name": "token-avatar-placeholder-color-variant-5",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_5"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_5"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "#17d417"
-    },
-    "name": "token-avatar-placeholder-color-variant-6",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_6"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_6"
-    ]
-  },
-  {
-    "value": "#b500e3",
-    "original": {
-      "value": "#b500e3"
-    },
-    "name": "token-avatar-placeholder-color-variant-7",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_7"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_7"
-    ]
-  },
-  {
-    "value": "#1ab0ff",
-    "original": {
-      "value": "#1ab0ff"
-    },
-    "name": "token-avatar-placeholder-color-variant-8",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_8"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_8"
-    ]
-  },
-  {
-    "value": "#2b8cfc",
-    "original": {
-      "value": "#2b8cfc"
-    },
-    "name": "token-avatar-placeholder-color-variant-9",
-    "attributes": {
-      "category": "avatar",
-      "type": "placeholder",
-      "item": "color_variant_9"
-    },
-    "path": [
-      "avatar",
-      "placeholder",
-      "color_variant_9"
-    ]
-  },
-  {
     "value": "36px",
     "original": {
       "value": "36px"
     },
-    "name": "token-brick-size-xxsm",
+    "name": "token-avatar-size-xxsm",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "size",
       "item": "xxsm"
     },
     "path": [
-      "brick",
+      "avatar",
       "size",
       "xxsm"
     ]
   },
   {
-    "value": "70px",
+    "value": "72px",
     "original": {
-      "value": "70px"
+      "value": "72px"
     },
-    "name": "token-brick-size-sm",
+    "name": "token-avatar-size-sm",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "size",
       "item": "sm"
     },
     "path": [
-      "brick",
+      "avatar",
       "size",
       "sm"
     ]
   },
   {
-    "value": "100px",
+    "value": "90px",
     "original": {
-      "value": "100px"
+      "value": "90px"
     },
-    "name": "token-brick-size-md",
+    "name": "token-avatar-size-md",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "size",
       "item": "md"
     },
     "path": [
-      "brick",
+      "avatar",
       "size",
       "md"
     ]
@@ -278,14 +93,14 @@
     "original": {
       "value": "120px"
     },
-    "name": "token-brick-size-lg",
+    "name": "token-avatar-size-lg",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "size",
       "item": "lg"
     },
     "path": [
-      "brick",
+      "avatar",
       "size",
       "lg"
     ]
@@ -295,14 +110,14 @@
     "original": {
       "value": "150px"
     },
-    "name": "token-brick-size-xlg",
+    "name": "token-avatar-size-xlg",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "size",
       "item": "xlg"
     },
     "path": [
-      "brick",
+      "avatar",
       "size",
       "xlg"
     ]
@@ -312,48 +127,237 @@
     "original": {
       "value": "50%"
     },
-    "name": "token-brick-border-radius-circle",
+    "name": "token-avatar-border-radius-circle",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "border_radius",
       "item": "circle"
     },
     "path": [
-      "brick",
+      "avatar",
       "border_radius",
       "circle"
     ]
   },
   {
-    "value": "16%",
+    "value": "12%",
     "original": {
-      "value": "16%"
+      "value": "12%"
     },
-    "name": "token-brick-border-radius-squared",
+    "name": "token-avatar-border-radius-squared",
     "attributes": {
-      "category": "brick",
+      "category": "avatar",
       "type": "border_radius",
       "item": "squared"
     },
     "path": [
-      "brick",
+      "avatar",
       "border_radius",
       "squared"
     ]
   },
   {
+    "value": "#949494",
+    "original": {
+      "value": "{color.gray_40.value}"
+    },
+    "name": "token-avatar-monogram-color-default",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_default"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_default"
+    ]
+  },
+  {
+    "value": "#ff4000",
+    "original": {
+      "value": "#ff4000"
+    },
+    "name": "token-avatar-monogram-color-variant-1",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_1"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_1"
+    ]
+  },
+  {
+    "value": "#ff4278",
+    "original": {
+      "value": "#ff4278"
+    },
+    "name": "token-avatar-monogram-color-variant-2",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_2"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_2"
+    ]
+  },
+  {
+    "value": "#ff8201",
+    "original": {
+      "value": "#ff8201"
+    },
+    "name": "token-avatar-monogram-color-variant-3",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_3"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_3"
+    ]
+  },
+  {
+    "value": "#ffc831",
+    "original": {
+      "value": "#ffc831"
+    },
+    "name": "token-avatar-monogram-color-variant-4",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_4"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_4"
+    ]
+  },
+  {
+    "value": "#00caa8",
+    "original": {
+      "value": "#00caa8"
+    },
+    "name": "token-avatar-monogram-color-variant-5",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_5"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_5"
+    ]
+  },
+  {
+    "value": "#17d417",
+    "original": {
+      "value": "#17d417"
+    },
+    "name": "token-avatar-monogram-color-variant-6",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_6"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_6"
+    ]
+  },
+  {
+    "value": "#b500e3",
+    "original": {
+      "value": "#b500e3"
+    },
+    "name": "token-avatar-monogram-color-variant-7",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_7"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_7"
+    ]
+  },
+  {
+    "value": "#1ab0ff",
+    "original": {
+      "value": "#1ab0ff"
+    },
+    "name": "token-avatar-monogram-color-variant-8",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_8"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_8"
+    ]
+  },
+  {
+    "value": "#2b8cfc",
+    "original": {
+      "value": "#2b8cfc"
+    },
+    "name": "token-avatar-monogram-color-variant-9",
+    "attributes": {
+      "category": "avatar",
+      "type": "monogram",
+      "item": "color_variant_9"
+    },
+    "path": [
+      "avatar",
+      "monogram",
+      "color_variant_9"
+    ]
+  },
+  {
     "value": "10px",
     "original": {
-      "value": "{base.border_radius.value}"
+      "value": "10px"
+    },
+    "name": "token-base-border-radius",
+    "attributes": {
+      "category": "base",
+      "type": "border",
+      "item": "radius"
+    },
+    "path": [
+      "base",
+      "border",
+      "radius"
+    ]
+  },
+  {
+    "value": "10px",
+    "original": {
+      "value": "{base.border.radius.value}"
     },
     "name": "token-button-border-radius",
     "attributes": {
       "category": "button",
-      "type": "border_radius"
+      "type": "border",
+      "item": "radius"
     },
     "path": [
       "button",
-      "border_radius"
+      "border",
+      "radius"
     ]
   },
   {
@@ -364,11 +368,13 @@
     "name": "token-button-border-width",
     "attributes": {
       "category": "button",
-      "type": "border_width"
+      "type": "border",
+      "item": "width"
     },
     "path": [
       "button",
-      "border_width"
+      "border",
+      "width"
     ]
   },
   {
@@ -432,480 +438,146 @@
     ]
   },
   {
-    "value": "#ff661b",
+    "value": "#4a8c70",
     "original": {
-      "value": "#ff661b"
+      "value": "#4A8C70"
     },
-    "name": "token-color-red-carrot",
+    "name": "token-color-green",
     "attributes": {
       "category": "color",
-      "type": "red_carrot"
+      "type": "green"
     },
     "path": [
       "color",
-      "red_carrot"
+      "green"
     ]
   },
   {
-    "value": "#ff4278",
+    "value": "#14213d",
     "original": {
-      "value": "#ff4278"
+      "value": "#14213D"
     },
-    "name": "token-color-pink-rose",
+    "name": "token-color-blue",
     "attributes": {
       "category": "color",
-      "type": "pink_rose"
+      "type": "blue"
     },
     "path": [
       "color",
-      "pink_rose"
+      "blue"
     ]
   },
   {
-    "value": "#ffc831",
+    "value": "#fca311",
     "original": {
-      "value": "#ffc831"
+      "value": "#FCA311"
     },
-    "name": "token-color-yellow-sun",
+    "name": "token-color-yellow",
     "attributes": {
       "category": "color",
-      "type": "yellow_sun"
+      "type": "yellow"
     },
     "path": [
       "color",
-      "yellow_sun"
+      "yellow"
     ]
   },
   {
-    "value": "#00caa8",
+    "value": "#ade8f7",
     "original": {
-      "value": "#00caa8"
+      "value": "#ADE8F7"
     },
-    "name": "token-color-green-dew",
+    "name": "token-color-azur",
     "attributes": {
       "category": "color",
-      "type": "green_dew"
+      "type": "azur"
     },
     "path": [
       "color",
-      "green_dew"
+      "azur"
     ]
   },
   {
-    "value": "#17d417",
+    "value": "#bf0603",
     "original": {
-      "value": "#17d417"
+      "value": "#BF0603"
     },
-    "name": "token-color-green-grass",
+    "name": "token-color-red",
     "attributes": {
       "category": "color",
-      "type": "green_grass"
+      "type": "red"
     },
     "path": [
       "color",
-      "green_grass"
+      "red"
     ]
   },
   {
-    "value": "#7000e3",
+    "value": "#4a8c70",
     "original": {
-      "value": "#7000e3"
+      "value": "{color.green.value}"
     },
-    "name": "token-color-purple-lavanda",
+    "name": "token-color-feature-chat",
     "attributes": {
       "category": "color",
-      "type": "purple_lavanda"
+      "type": "feature",
+      "item": "chat"
     },
     "path": [
       "color",
-      "purple_lavanda"
+      "feature",
+      "chat"
     ]
   },
   {
-    "value": "#1ab0ff",
+    "value": "#14213d",
     "original": {
-      "value": "#1ab0ff"
+      "value": "{color.blue.value}"
     },
-    "name": "token-color-blue-sky",
+    "name": "token-color-feature-blog",
     "attributes": {
       "category": "color",
-      "type": "blue_sky"
+      "type": "feature",
+      "item": "blog"
     },
     "path": [
       "color",
-      "blue_sky"
+      "feature",
+      "blog"
     ]
   },
   {
-    "value": "#2b8cfc",
+    "value": "#fca311",
     "original": {
-      "value": "#2b8cfc"
+      "value": "{color.yellow.value}"
     },
-    "name": "token-color-blue-rain",
+    "name": "token-color-feature-shop",
     "attributes": {
       "category": "color",
-      "type": "blue_rain"
+      "type": "feature",
+      "item": "shop"
     },
     "path": [
       "color",
-      "blue_rain"
+      "feature",
+      "shop"
     ]
   },
   {
-    "value": "#ff661b",
+    "value": "#bf0603",
     "original": {
-      "value": "{color.red_carrot.value}"
+      "value": "{color.red.value}"
     },
-    "name": "token-color-product-attention-boost",
+    "name": "token-color-feature-settings",
     "attributes": {
       "category": "color",
-      "type": "product",
-      "item": "attention_boost"
+      "type": "feature",
+      "item": "settings"
     },
     "path": [
       "color",
-      "product",
-      "attention_boost"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-product-billing",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "billing"
-    },
-    "path": [
-      "color",
-      "product",
-      "billing"
-    ]
-  },
-  {
-    "value": "#ff4278",
-    "original": {
-      "value": "{color.pink_rose.value}"
-    },
-    "name": "token-color-product-boost",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "boost"
-    },
-    "path": [
-      "color",
-      "product",
-      "boost"
-    ]
-  },
-  {
-    "value": "#7000e3",
-    "original": {
-      "value": "{color.purple_lavanda.value}"
-    },
-    "name": "token-color-product-bump",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "bump"
-    },
-    "path": [
-      "color",
-      "product",
-      "bump"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-product-bundle-sale",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "bundle_sale"
-    },
-    "path": [
-      "color",
-      "product",
-      "bundle_sale"
-    ]
-  },
-  {
-    "value": "#1ab0ff",
-    "original": {
-      "value": "{color.blue_sky.value}"
-    },
-    "name": "token-color-product-chat-quota",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "chat_quota"
-    },
-    "path": [
-      "color",
-      "product",
-      "chat_quota"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-product-chat-with-newbies",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "chat_with_newbies"
-    },
-    "path": [
-      "color",
-      "product",
-      "chat_with_newbies"
-    ]
-  },
-  {
-    "value": "#ff661b",
-    "original": {
-      "value": "{color.red_carrot.value}"
-    },
-    "name": "token-color-product-chat-with-tired",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "chat_with_tired"
-    },
-    "path": [
-      "color",
-      "product",
-      "chat_with_tired"
-    ]
-  },
-  {
-    "value": "#3B5998",
-    "original": {
-      "value": "{color.primary.value}"
-    },
-    "name": "token-color-product-criteria",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "criteria"
-    },
-    "path": [
-      "color",
-      "product",
-      "criteria"
-    ]
-  },
-  {
-    "value": "#7000e3",
-    "original": {
-      "value": "{color.purple_lavanda.value}"
-    },
-    "name": "token-color-product-crush",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "crush"
-    },
-    "path": [
-      "color",
-      "product",
-      "crush"
-    ]
-  },
-  {
-    "value": "#00caa8",
-    "original": {
-      "value": "{color.green_dew.value}"
-    },
-    "name": "token-color-product-extra-shows",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "extra_shows"
-    },
-    "path": [
-      "color",
-      "product",
-      "extra_shows"
-    ]
-  },
-  {
-    "value": "#ffc831",
-    "original": {
-      "value": "{color.yellow_sun.value}"
-    },
-    "name": "token-color-product-favourites",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "favourites"
-    },
-    "path": [
-      "color",
-      "product",
-      "favourites"
-    ]
-  },
-  {
-    "value": "#1ab0ff",
-    "original": {
-      "value": "{color.blue_sky.value}"
-    },
-    "name": "token-color-product-invisible-mode",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "invisible_mode"
-    },
-    "path": [
-      "color",
-      "product",
-      "invisible_mode"
-    ]
-  },
-  {
-    "value": "#ff661b",
-    "original": {
-      "value": "{color.red_carrot.value}"
-    },
-    "name": "token-color-product-liked-you",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "liked_you"
-    },
-    "path": [
-      "color",
-      "product",
-      "liked_you"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-product-never-loose-account",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "never_loose_account"
-    },
-    "path": [
-      "color",
-      "product",
-      "never_loose_account"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-product-riseup",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "riseup"
-    },
-    "path": [
-      "color",
-      "product",
-      "riseup"
-    ]
-  },
-  {
-    "value": "#2b8cfc",
-    "original": {
-      "value": "{color.blue_rain.value}"
-    },
-    "name": "token-color-product-special-delivery",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "special_delivery"
-    },
-    "path": [
-      "color",
-      "product",
-      "special_delivery"
-    ]
-  },
-  {
-    "value": "#2b8cfc",
-    "original": {
-      "value": "{color.blue_rain.value}"
-    },
-    "name": "token-color-product-spotlight",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "spotlight"
-    },
-    "path": [
-      "color",
-      "product",
-      "spotlight"
-    ]
-  },
-  {
-    "value": "#3B5998",
-    "original": {
-      "value": "{color.primary.value}"
-    },
-    "name": "token-color-product-spp",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "spp"
-    },
-    "path": [
-      "color",
-      "product",
-      "spp"
-    ]
-  },
-  {
-    "value": "#3B5998",
-    "original": {
-      "value": "{color.primary.value}"
-    },
-    "name": "token-color-product-undo",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "undo"
-    },
-    "path": [
-      "color",
-      "product",
-      "undo"
-    ]
-  },
-  {
-    "value": "#1ab0ff",
-    "original": {
-      "value": "{color.blue_sky.value}"
-    },
-    "name": "token-color-product-verification",
-    "attributes": {
-      "category": "color",
-      "type": "product",
-      "item": "verification"
-    },
-    "path": [
-      "color",
-      "product",
-      "verification"
+      "feature",
+      "settings"
     ]
   },
   {
@@ -1014,9 +686,9 @@
     ]
   },
   {
-    "value": "#ff661b",
+    "value": "#bf0603",
     "original": {
-      "value": "{color.red_carrot.value}"
+      "value": "{color.red.value}"
     },
     "name": "token-color-action-destructive",
     "attributes": {
@@ -1044,122 +716,37 @@
     ]
   },
   {
-    "value": "#17d417",
+    "value": "#4a8c70",
     "original": {
-      "value": "{color.green_grass.value}"
+      "value": "{color.green.value}"
     },
-    "name": "token-color-popularity-veryhigh",
+    "name": "token-color-user-authenticated",
     "attributes": {
       "category": "color",
-      "type": "popularity",
-      "item": "veryhigh"
+      "type": "user",
+      "item": "authenticated"
     },
     "path": [
       "color",
-      "popularity",
-      "veryhigh"
+      "user",
+      "authenticated"
     ]
   },
   {
-    "value": "#17d417",
+    "value": "#949494",
     "original": {
-      "value": "{color.green_grass.value}"
+      "value": "{color.gray_40.value}"
     },
-    "name": "token-color-popularity-high",
+    "name": "token-color-user-anonymous",
     "attributes": {
       "category": "color",
-      "type": "popularity",
-      "item": "high"
+      "type": "user",
+      "item": "anonymous"
     },
     "path": [
       "color",
-      "popularity",
-      "high"
-    ]
-  },
-  {
-    "value": "#ffc831",
-    "original": {
-      "value": "{color.yellow_sun.value}"
-    },
-    "name": "token-color-popularity-average",
-    "attributes": {
-      "category": "color",
-      "type": "popularity",
-      "item": "average"
-    },
-    "path": [
-      "color",
-      "popularity",
-      "average"
-    ]
-  },
-  {
-    "value": "#ff661b",
-    "original": {
-      "value": "{color.red_carrot.value}"
-    },
-    "name": "token-color-popularity-low",
-    "attributes": {
-      "category": "color",
-      "type": "popularity",
-      "item": "low"
-    },
-    "path": [
-      "color",
-      "popularity",
-      "low"
-    ]
-  },
-  {
-    "value": "#ff661b",
-    "original": {
-      "value": "{color.red_carrot.value}"
-    },
-    "name": "token-color-popularity-verylow",
-    "attributes": {
-      "category": "color",
-      "type": "popularity",
-      "item": "verylow"
-    },
-    "path": [
-      "color",
-      "popularity",
-      "verylow"
-    ]
-  },
-  {
-    "value": "#17d417",
-    "original": {
-      "value": "{color.green_grass.value}"
-    },
-    "name": "token-color-online-status-online",
-    "attributes": {
-      "category": "color",
-      "type": "online_status",
-      "item": "online"
-    },
-    "path": [
-      "color",
-      "online_status",
-      "online"
-    ]
-  },
-  {
-    "value": "#ffc831",
-    "original": {
-      "value": "{color.yellow_sun.value}"
-    },
-    "name": "token-color-online-status-idle",
-    "attributes": {
-      "category": "color",
-      "type": "online_status",
-      "item": "idle"
-    },
-    "path": [
-      "color",
-      "online_status",
-      "idle"
+      "user",
+      "anonymous"
     ]
   },
   {
@@ -1167,15 +754,15 @@
     "original": {
       "value": "#4867aa"
     },
-    "name": "token-color-provider-facebook",
+    "name": "token-color-social-facebook",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "facebook"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "facebook"
     ]
   },
@@ -1184,15 +771,15 @@
     "original": {
       "value": "#1ab0ff"
     },
-    "name": "token-color-provider-twitter",
+    "name": "token-color-social-twitter",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "twitter"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "twitter"
     ]
   },
@@ -1201,15 +788,15 @@
     "original": {
       "value": "#507299"
     },
-    "name": "token-color-provider-vkontakte",
+    "name": "token-color-social-vkontakte",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "vkontakte"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "vkontakte"
     ]
   },
@@ -1218,15 +805,15 @@
     "original": {
       "value": "#ff8201"
     },
-    "name": "token-color-provider-odnoklassniki",
+    "name": "token-color-social-odnoklassniki",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "odnoklassniki"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "odnoklassniki"
     ]
   },
@@ -1235,15 +822,15 @@
     "original": {
       "value": "#dc4a3d"
     },
-    "name": "token-color-provider-google",
+    "name": "token-color-social-google",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "google"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "google"
     ]
   },
@@ -1252,15 +839,15 @@
     "original": {
       "value": "#d93175"
     },
-    "name": "token-color-provider-instagram",
+    "name": "token-color-social-instagram",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "instagram"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "instagram"
     ]
   },
@@ -1269,67 +856,16 @@
     "original": {
       "value": "#0076b7"
     },
-    "name": "token-color-provider-linkedin",
+    "name": "token-color-social-linkedin",
     "attributes": {
       "category": "color",
-      "type": "provider",
+      "type": "social",
       "item": "linkedin"
     },
     "path": [
       "color",
-      "provider",
+      "social",
       "linkedin"
-    ]
-  },
-  {
-    "value": "65px",
-    "original": {
-      "value": "65px"
-    },
-    "name": "token-gift-size-md",
-    "attributes": {
-      "category": "gift",
-      "type": "size",
-      "item": "md"
-    },
-    "path": [
-      "gift",
-      "size",
-      "md"
-    ]
-  },
-  {
-    "value": "90px",
-    "original": {
-      "value": "90px"
-    },
-    "name": "token-gift-size-lg",
-    "attributes": {
-      "category": "gift",
-      "type": "size",
-      "item": "lg"
-    },
-    "path": [
-      "gift",
-      "size",
-      "lg"
-    ]
-  },
-  {
-    "value": "200px",
-    "original": {
-      "value": "200px"
-    },
-    "name": "token-gift-size-xlg",
-    "attributes": {
-      "category": "gift",
-      "type": "size",
-      "item": "xlg"
-    },
-    "path": [
-      "gift",
-      "size",
-      "xlg"
     ]
   },
   {
@@ -1441,9 +977,9 @@
     ]
   },
   {
-    "value": "100px",
+    "value": "90px",
     "original": {
-      "value": "{brick.size.md.value}"
+      "value": "{avatar.size.md.value}"
     },
     "name": "token-icon-jumbo-size-md",
     "attributes": {
@@ -1460,7 +996,7 @@
   {
     "value": "120px",
     "original": {
-      "value": "{brick.size.lg.value}"
+      "value": "{avatar.size.lg.value}"
     },
     "name": "token-icon-jumbo-size-lg",
     "attributes": {
@@ -1472,6 +1008,21 @@
       "icon",
       "jumbo-size",
       "lg"
+    ]
+  },
+  {
+    "value": "#949494",
+    "original": {
+      "value": "{color.gray_40.value}"
+    },
+    "name": "token-input-placeholder",
+    "attributes": {
+      "category": "input",
+      "type": "placeholder"
+    },
+    "path": [
+      "input",
+      "placeholder"
     ]
   },
   {
@@ -1543,48 +1094,173 @@
     ]
   },
   {
-    "value": "22px",
+    "value": "48px",
     "original": {
-      "value": "22px"
+      "value": "48px"
     },
-    "name": "token-mark-size",
+    "name": "token-input-toolbar-height",
     "attributes": {
-      "category": "mark",
-      "type": "size"
+      "category": "input",
+      "type": "toolbar",
+      "item": "height"
     },
     "path": [
-      "mark",
-      "size"
+      "input",
+      "toolbar",
+      "height"
     ]
   },
   {
-    "value": "16px",
+    "value": "4px",
     "original": {
-      "value": "16px"
+      "value": "4px"
     },
-    "name": "token-modal-border-radius",
+    "name": "token-input-toolbar-item-gap",
     "attributes": {
-      "category": "modal",
-      "type": "border_radius"
+      "category": "input",
+      "type": "toolbar",
+      "item": "item_gap"
     },
     "path": [
-      "modal",
-      "border_radius"
+      "input",
+      "toolbar",
+      "item_gap"
     ]
   },
   {
-    "value": "0.6",
+    "value": "32px",
     "original": {
-      "value": "0.6"
+      "value": "32px"
     },
-    "name": "token-modal-shadow-opacity",
+    "name": "token-input-toolbar-send-icon-size",
     "attributes": {
-      "category": "modal",
-      "type": "shadow_opacity"
+      "category": "input",
+      "type": "toolbar",
+      "item": "send_icon_size"
     },
     "path": [
-      "modal",
-      "shadow_opacity"
+      "input",
+      "toolbar",
+      "send_icon_size"
+    ]
+  },
+  {
+    "value": "40px",
+    "original": {
+      "value": "40px"
+    },
+    "name": "token-input-switcher-item-size",
+    "attributes": {
+      "category": "input",
+      "type": "switcher",
+      "item": "item_size"
+    },
+    "path": [
+      "input",
+      "switcher",
+      "item_size"
+    ]
+  },
+  {
+    "value": "24px",
+    "original": {
+      "value": "24px"
+    },
+    "name": "token-input-switcher-icon-size",
+    "attributes": {
+      "category": "input",
+      "type": "switcher",
+      "item": "icon_size"
+    },
+    "path": [
+      "input",
+      "switcher",
+      "icon_size"
+    ]
+  },
+  {
+    "value": "36px",
+    "original": {
+      "value": "36px"
+    },
+    "name": "token-input-mini-height",
+    "attributes": {
+      "category": "input",
+      "type": "mini",
+      "item": "height"
+    },
+    "path": [
+      "input",
+      "mini",
+      "height"
+    ]
+  },
+  {
+    "value": "32px",
+    "original": {
+      "value": "32px"
+    },
+    "name": "token-input-mini-send-icon-size",
+    "attributes": {
+      "category": "input",
+      "type": "mini",
+      "item": "send_icon_size"
+    },
+    "path": [
+      "input",
+      "mini",
+      "send_icon_size"
+    ]
+  },
+  {
+    "value": "65px",
+    "original": {
+      "value": "65px"
+    },
+    "name": "token-login-size-md",
+    "attributes": {
+      "category": "login",
+      "type": "size",
+      "item": "md"
+    },
+    "path": [
+      "login",
+      "size",
+      "md"
+    ]
+  },
+  {
+    "value": "90px",
+    "original": {
+      "value": "90px"
+    },
+    "name": "token-login-size-lg",
+    "attributes": {
+      "category": "login",
+      "type": "size",
+      "item": "lg"
+    },
+    "path": [
+      "login",
+      "size",
+      "lg"
+    ]
+  },
+  {
+    "value": "200px",
+    "original": {
+      "value": "200px"
+    },
+    "name": "token-login-size-xlg",
+    "attributes": {
+      "category": "login",
+      "type": "size",
+      "item": "xlg"
+    },
+    "path": [
+      "login",
+      "size",
+      "xlg"
     ]
   },
   {
@@ -1592,29 +1268,14 @@
     "original": {
       "value": "58px"
     },
-    "name": "token-modal-button-height",
+    "name": "token-login-button-height",
     "attributes": {
-      "category": "modal",
+      "category": "login",
       "type": "button_height"
     },
     "path": [
-      "modal",
+      "login",
       "button_height"
-    ]
-  },
-  {
-    "value": "6px",
-    "original": {
-      "value": "6px"
-    },
-    "name": "token-online-status-size",
-    "attributes": {
-      "category": "online_status",
-      "type": "size"
-    },
-    "path": [
-      "online_status",
-      "size"
     ]
   },
   {
@@ -1712,80 +1373,14 @@
     "original": {
       "value": "{spacing.lg.value}"
     },
-    "name": "token-spacing-gap",
+    "name": "token-spacing-gutter",
     "attributes": {
       "category": "spacing",
-      "type": "gap"
+      "type": "gutter"
     },
     "path": [
       "spacing",
-      "gap"
-    ]
-  },
-  {
-    "value": "50px",
-    "original": {
-      "value": "50px"
-    },
-    "name": "token-tabbar-height",
-    "attributes": {
-      "category": "tabbar",
-      "type": "height"
-    },
-    "path": [
-      "tabbar",
-      "height"
-    ]
-  },
-  {
-    "value": "30px",
-    "original": {
-      "value": "30px"
-    },
-    "name": "token-tabbar-icon-size",
-    "attributes": {
-      "category": "tabbar",
-      "type": "icon",
-      "item": "size"
-    },
-    "path": [
-      "tabbar",
-      "icon",
-      "size"
-    ]
-  },
-  {
-    "value": "0.9s",
-    "original": {
-      "value": "0.9s"
-    },
-    "name": "token-tabbar-animation-timing-bounce",
-    "attributes": {
-      "category": "tabbar",
-      "type": "animation",
-      "item": "timing_bounce"
-    },
-    "path": [
-      "tabbar",
-      "animation",
-      "timing_bounce"
-    ]
-  },
-  {
-    "value": "3.0s",
-    "original": {
-      "value": "3.0s"
-    },
-    "name": "token-tabbar-animation-timing-popout",
-    "attributes": {
-      "category": "tabbar",
-      "type": "animation",
-      "item": "timing_popout"
-    },
-    "path": [
-      "tabbar",
-      "animation",
-      "timing_popout"
+      "gutter"
     ]
   },
   {
@@ -1829,40 +1424,6 @@
       "value": "18px",
       "category": "typography"
     },
-    "name": "token-font-size-header-3",
-    "attributes": {
-      "category": "font_size",
-      "type": "header_3"
-    },
-    "path": [
-      "font_size",
-      "header_3"
-    ]
-  },
-  {
-    "value": "16px",
-    "category": "typography",
-    "original": {
-      "value": "16px",
-      "category": "typography"
-    },
-    "name": "token-font-size-action",
-    "attributes": {
-      "category": "font_size",
-      "type": "action"
-    },
-    "path": [
-      "font_size",
-      "action"
-    ]
-  },
-  {
-    "value": "18px",
-    "category": "typography",
-    "original": {
-      "value": "18px",
-      "category": "typography"
-    },
     "name": "token-font-size-title",
     "attributes": {
       "category": "font_size",
@@ -1871,23 +1432,6 @@
     "path": [
       "font_size",
       "title"
-    ]
-  },
-  {
-    "value": "17px",
-    "category": "typography",
-    "original": {
-      "value": "17px",
-      "category": "typography"
-    },
-    "name": "token-font-size-display",
-    "attributes": {
-      "category": "font_size",
-      "type": "display"
-    },
-    "path": [
-      "font_size",
-      "display"
     ]
   },
   {
@@ -1925,23 +1469,6 @@
     ]
   },
   {
-    "value": "13px",
-    "category": "typography",
-    "original": {
-      "value": "13px",
-      "category": "typography"
-    },
-    "name": "token-font-size-paragraph-3",
-    "attributes": {
-      "category": "font_size",
-      "type": "paragraph_3"
-    },
-    "path": [
-      "font_size",
-      "paragraph_3"
-    ]
-  },
-  {
     "value": "28px",
     "category": "typography",
     "original": {
@@ -1976,40 +1503,6 @@
     ]
   },
   {
-    "value": "22px",
-    "category": "typography",
-    "original": {
-      "value": "22px",
-      "category": "typography"
-    },
-    "name": "token-line-height-header-3",
-    "attributes": {
-      "category": "line_height",
-      "type": "header_3"
-    },
-    "path": [
-      "line_height",
-      "header_3"
-    ]
-  },
-  {
-    "value": "22px",
-    "category": "typography",
-    "original": {
-      "value": "22px",
-      "category": "typography"
-    },
-    "name": "token-line-height-action",
-    "attributes": {
-      "category": "line_height",
-      "type": "action"
-    },
-    "path": [
-      "line_height",
-      "action"
-    ]
-  },
-  {
     "value": "24px",
     "category": "typography",
     "original": {
@@ -2024,23 +1517,6 @@
     "path": [
       "line_height",
       "title"
-    ]
-  },
-  {
-    "value": "22px",
-    "category": "typography",
-    "original": {
-      "value": "22px",
-      "category": "typography"
-    },
-    "name": "token-line-height-display",
-    "attributes": {
-      "category": "line_height",
-      "type": "display"
-    },
-    "path": [
-      "line_height",
-      "display"
     ]
   },
   {
@@ -2078,180 +1554,10 @@
     ]
   },
   {
-    "value": "16px",
+    "value": "System",
     "category": "typography",
     "original": {
-      "value": "16px",
-      "category": "typography"
-    },
-    "name": "token-line-height-paragraph-3",
-    "attributes": {
-      "category": "line_height",
-      "type": "paragraph_3"
-    },
-    "path": [
-      "line_height",
-      "paragraph_3"
-    ]
-  },
-  {
-    "value": "48px",
-    "original": {
-      "value": "48px"
-    },
-    "name": "token-chat-toolbar-height",
-    "attributes": {
-      "category": "chat",
-      "type": "toolbar",
-      "item": "height"
-    },
-    "path": [
-      "chat",
-      "toolbar",
-      "height"
-    ]
-  },
-  {
-    "value": "4px",
-    "original": {
-      "value": "4px"
-    },
-    "name": "token-chat-toolbar-item-gap",
-    "attributes": {
-      "category": "chat",
-      "type": "toolbar",
-      "item": "item_gap"
-    },
-    "path": [
-      "chat",
-      "toolbar",
-      "item_gap"
-    ]
-  },
-  {
-    "value": "32px",
-    "original": {
-      "value": "32px"
-    },
-    "name": "token-chat-toolbar-send-icon-size",
-    "attributes": {
-      "category": "chat",
-      "type": "toolbar",
-      "item": "send_icon_size"
-    },
-    "path": [
-      "chat",
-      "toolbar",
-      "send_icon_size"
-    ]
-  },
-  {
-    "value": "40px",
-    "original": {
-      "value": "40px"
-    },
-    "name": "token-chat-switcher-item-size",
-    "attributes": {
-      "category": "chat",
-      "type": "switcher",
-      "item": "item_size"
-    },
-    "path": [
-      "chat",
-      "switcher",
-      "item_size"
-    ]
-  },
-  {
-    "value": "24px",
-    "original": {
-      "value": "24px"
-    },
-    "name": "token-chat-switcher-icon-size",
-    "attributes": {
-      "category": "chat",
-      "type": "switcher",
-      "item": "icon_size"
-    },
-    "path": [
-      "chat",
-      "switcher",
-      "icon_size"
-    ]
-  },
-  {
-    "value": "36px",
-    "original": {
-      "value": "36px"
-    },
-    "name": "token-chat-mini-height",
-    "attributes": {
-      "category": "chat",
-      "type": "mini",
-      "item": "height"
-    },
-    "path": [
-      "chat",
-      "mini",
-      "height"
-    ]
-  },
-  {
-    "value": "32px",
-    "original": {
-      "value": "32px"
-    },
-    "name": "token-chat-mini-send-icon-size",
-    "attributes": {
-      "category": "chat",
-      "type": "mini",
-      "item": "send_icon_size"
-    },
-    "path": [
-      "chat",
-      "mini",
-      "send_icon_size"
-    ]
-  },
-  {
-    "value": "16px",
-    "original": {
-      "value": "{spacing.lg.value}"
-    },
-    "name": "token-springbox-spacing-media-content",
-    "attributes": {
-      "category": "springbox",
-      "type": "spacing",
-      "item": "media_content"
-    },
-    "path": [
-      "springbox",
-      "spacing",
-      "media_content"
-    ]
-  },
-  {
-    "value": "12px",
-    "original": {
-      "value": "{spacing.md.value}"
-    },
-    "name": "token-springbox-spacing-content-extra",
-    "attributes": {
-      "category": "springbox",
-      "type": "spacing",
-      "item": "content_extra"
-    },
-    "path": [
-      "springbox",
-      "spacing",
-      "content_extra"
-    ]
-  },
-  {
-    "value": "TODO",
-    "category": "typography",
-    "original": {
-      "value": "TODO",
+      "value": "System",
       "category": "typography"
     },
     "name": "token-font-family-system",
@@ -2265,10 +1571,10 @@
     ]
   },
   {
-    "value": "TODO",
+    "value": "UniNeue",
     "category": "typography",
     "original": {
-      "value": "TODO",
+      "value": "UniNeue",
       "category": "typography"
     },
     "name": "token-font-family-custom",

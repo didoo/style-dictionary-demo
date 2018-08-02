@@ -1,6 +1,31 @@
 {
     "avatar": {
-        "placeholder": {
+        "size": {
+            "xxsm": {
+                "value": "36px"
+            },
+            "sm": {
+                "value": "72px"
+            },
+            "md": {
+                "value": "90px"
+            },
+            "lg": {
+                "value": "120px"
+            },
+            "xlg": {
+                "value": "150px"
+            }
+        },
+        "border_radius": {
+            "circle": {
+                "value": "50%"
+            },
+            "squared": {
+                "value": "12%"
+            }
+        },
+        "monogram": {
             "color_default": {
                 "value": "{color.gray_40.value}"
             },

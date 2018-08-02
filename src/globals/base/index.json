@@ -1,7 +1,9 @@
 {
     "base": {
-        "border_radius": {
-            "value": "10px"
+        "border": {
+            "radius": {
+                "value": "10px"
+            }
         }
     }
 }

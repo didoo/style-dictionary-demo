@@ -2,40 +2,20 @@
 
 <!--
   Do not edit directly
-  Generated on Thu Aug 02 2018 10:40:38 GMT+0100 (BST)
+  Generated on Fri Aug 03 2018 00:39:09 GMT+0100 (BST)
 -->
 <resources>
   <color name="token_color_primary">#EA4335</color>
   <color name="token_color_secondary">#34A853</color>
-  <color name="token_color_red_carrot">#ffff661b</color>
-  <color name="token_color_pink_rose">#ffff4278</color>
-  <color name="token_color_yellow_sun">#ffffc831</color>
-  <color name="token_color_green_dew">#ff00caa8</color>
-  <color name="token_color_green_grass">#ff17d417</color>
-  <color name="token_color_purple_lavanda">#ff7000e3</color>
-  <color name="token_color_blue_sky">#ff1ab0ff</color>
-  <color name="token_color_blue_rain">#ff2b8cfc</color>
-  <color name="token_color_product_attention_boost">#ffff661b</color>
-  <color name="token_color_product_billing">#ff17d417</color>
-  <color name="token_color_product_boost">#ffff4278</color>
-  <color name="token_color_product_bump">#ff7000e3</color>
-  <color name="token_color_product_bundle_sale">#ff17d417</color>
-  <color name="token_color_product_chat_quota">#ff1ab0ff</color>
-  <color name="token_color_product_chat_with_newbies">#ff17d417</color>
-  <color name="token_color_product_chat_with_tired">#ffff661b</color>
-  <color name="token_color_product_criteria">#EA4335</color>
-  <color name="token_color_product_crush">#ff7000e3</color>
-  <color name="token_color_product_extra_shows">#ff00caa8</color>
-  <color name="token_color_product_favourites">#ffffc831</color>
-  <color name="token_color_product_invisible_mode">#ff1ab0ff</color>
-  <color name="token_color_product_liked_you">#ffff661b</color>
-  <color name="token_color_product_never_loose_account">#ff17d417</color>
-  <color name="token_color_product_riseup">#ff17d417</color>
-  <color name="token_color_product_special_delivery">#ff2b8cfc</color>
-  <color name="token_color_product_spotlight">#ff2b8cfc</color>
-  <color name="token_color_product_spp">#EA4335</color>
-  <color name="token_color_product_undo">#EA4335</color>
-  <color name="token_color_product_verification">#ff1ab0ff</color>
+  <color name="token_color_green">#ff4a8c70</color>
+  <color name="token_color_blue">#ff14213d</color>
+  <color name="token_color_yellow">#fffca311</color>
+  <color name="token_color_azur">#ffade8f7</color>
+  <color name="token_color_red">#ffbf0603</color>
+  <color name="token_color_feature_chat">#ff4a8c70</color>
+  <color name="token_color_feature_blog">#ff14213d</color>
+  <color name="token_color_feature_shop">#fffca311</color>
+  <color name="token_color_feature_settings">#ffbf0603</color>
   <color name="token_color_black">#ff000000</color>
   <color name="token_color_gray_60">#ff6a6a6a</color>
   <color name="token_color_gray_40">#ff949494</color>
@@ -43,21 +23,16 @@
   <color name="token_color_gray_12">#ffe0e0e0</color>
   <color name="token_color_gray_3">#fff6f6f6</color>
   <color name="token_color_action_primary">#EA4335</color>
-  <color name="token_color_action_destructive">#ffff661b</color>
+  <color name="token_color_action_destructive">#ffbf0603</color>
   <color name="token_color_border">#ffe0e0e0</color>
-  <color name="token_color_popularity_veryhigh">#ff17d417</color>
-  <color name="token_color_popularity_high">#ff17d417</color>
-  <color name="token_color_popularity_average">#ffffc831</color>
-  <color name="token_color_popularity_low">#ffff661b</color>
-  <color name="token_color_popularity_verylow">#ffff661b</color>
-  <color name="token_color_online_status_online">#ff17d417</color>
-  <color name="token_color_online_status_idle">#ffffc831</color>
-  <color name="token_color_provider_facebook">#ff4867aa</color>
-  <color name="token_color_provider_twitter">#ff1ab0ff</color>
-  <color name="token_color_provider_vkontakte">#ff507299</color>
-  <color name="token_color_provider_odnoklassniki">#ffff8201</color>
-  <color name="token_color_provider_google">#ffdc4a3d</color>
-  <color name="token_color_provider_instagram">#ffd93175</color>
-  <color name="token_color_provider_linkedin">#ff0076b7</color>
+  <color name="token_color_user_authenticated">#ff4a8c70</color>
+  <color name="token_color_user_anonymous">#ff949494</color>
+  <color name="token_color_social_facebook">#ff4867aa</color>
+  <color name="token_color_social_twitter">#ff1ab0ff</color>
+  <color name="token_color_social_vkontakte">#ff507299</color>
+  <color name="token_color_social_odnoklassniki">#ffff8201</color>
+  <color name="token_color_social_google">#ffdc4a3d</color>
+  <color name="token_color_social_instagram">#ffd93175</color>
+  <color name="token_color_social_linkedin">#ff0076b7</color>
   
 </resources>

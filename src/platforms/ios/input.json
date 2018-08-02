@@ -1,11 +1,11 @@
 {
-    "chat": {
+    "input": {
         "toolbar": {
             "height": {
-                "value": "44px"
+                "value": "48px"
             },
             "item_gap": {
-                "value": "0px"
+                "value": "4px"
             },
             "send_icon_size": {
                 "value": "32px"

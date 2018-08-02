@@ -25,10 +25,10 @@
         },
         "jumbo-size": {
             "md": {
-                "value": "{brick.size.md.value}"
+                "value": "{avatar.size.md.value}"
             },
             "lg": {
-                "value": "{brick.size.lg.value}"
+                "value": "{avatar.size.lg.value}"
             }
         }
     }

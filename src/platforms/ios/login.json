@@ -1,7 +1,7 @@
 {
-    "modal": {
+    "login": {
         "button_height": {
-            "value": "48px"
+            "value": "58px"
         }
     }
 }

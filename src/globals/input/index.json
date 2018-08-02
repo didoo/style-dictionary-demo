@@ -1,5 +1,8 @@
 {
     "input": {
+        "placeholder": {
+            "value": "{color.gray_40.value}"
+        },
         "choice": {
             "size": {
                 "value": "24px"

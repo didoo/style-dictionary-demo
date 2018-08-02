@@ -1,11 +1,11 @@
 {
     "font_family": {
         "system": {
-            "value": "TODO",
+            "value": "-apple-system, 'San Francisco', 'Helvetica Neue', 'Segoe WP', 'Segoe UI', Roboto, sans-serif",
             "category": "typography"
         },
         "custom": {
-            "value": "TODO",
+            "value": "'Uni Neue', sans-serif",
             "category": "typography"
         }
     }
