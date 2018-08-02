@@ -1,0 +1,15 @@
+{
+    "gift": {
+        "size": {
+            "md": {
+                "value": "65px"
+            },
+            "lg": {
+                "value": "90px"
+            },
+            "xlg": {
+                "value": "200px"
+            }
+        }
+    }
+}

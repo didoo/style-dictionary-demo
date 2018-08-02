@@ -1,0 +1,22 @@
+{
+    "color": {
+        "black": {
+            "value": "#000"
+        },
+        "gray_60": {
+            "value": "#6a6a6a"
+        },
+        "gray_40": {
+            "value": "#949494"
+        },
+        "gray_24": {
+            "value": "#c4c4c4"
+        },
+        "gray_12": {
+            "value": "#e0e0e0"
+        },
+        "gray_3": {
+            "value": "#f6f6f6"
+        }
+    }
+}

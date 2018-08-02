@@ -1,0 +1,78 @@
+{
+    "font_size": {
+        "header_1": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "header_2": {
+            "value": "20px",
+            "category": "typography"
+        },
+        "header_3": {
+            "value": "18px",
+            "category": "typography"
+        },
+        "action": {
+            "value": "16px",
+            "category": "typography"
+        },
+        "title": {
+            "value": "18px",
+            "category": "typography"
+        },
+        "display": {
+            "value": "17px",
+            "category": "typography"
+        },
+        "paragraph_1": {
+            "value": "16px",
+            "category": "typography"
+        },
+        "paragraph_2": {
+            "value": "15px",
+            "category": "typography"
+        },
+        "paragraph_3": {
+            "value": "13px",
+            "category": "typography"
+        }
+    },
+    "line_height": {
+        "header_1": {
+            "value": "28px",
+            "category": "typography"
+        },
+        "header_2": {
+            "value": "25px",
+            "category": "typography"
+        },
+        "header_3": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "action": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "title": {
+            "value": "24px",
+            "category": "typography"
+        },
+        "display": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "paragraph_1": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "paragraph_2": {
+            "value": "20px",
+            "category": "typography"
+        },
+        "paragraph_3": {
+            "value": "16px",
+            "category": "typography"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "color": {
+        "primary": {
+            "value": "{alias.color.brand.primary.value}"
+        },
+        "secondary": {
+            "value": "{alias.color.brand.secondary.value}"
+        },
+        "red_carrot": {
+            "value": "#ff661b"
+        },
+        "pink_rose": {
+            "value": "#ff4278"
+        },
+        "yellow_sun": {
+            "value": "#ffc831"
+        },
+        "green_dew": {
+            "value": "#00caa8"
+        },
+        "green_grass": {
+            "value": "#17d417"
+        },
+        "purple_lavanda": {
+            "value": "#7000e3"
+        },
+        "blue_sky": {
+            "value": "#1ab0ff"
+        },
+        "blue_rain": {
+            "value": "#2b8cfc"
+        }
+    }
+}

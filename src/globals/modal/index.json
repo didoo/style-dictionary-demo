@@ -1,0 +1,10 @@
+{
+    "modal": {
+        "border_radius": {
+            "value": "16px"
+        },
+        "shadow_opacity": {
+            "value": "0.6"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "color": {
+        "product": {
+            "attention_boost": {
+                "value": "{color.red_carrot.value}"
+            },
+            "billing": {
+                "value": "{color.green_grass.value}"
+            },
+            "boost": {
+                "value": "{color.pink_rose.value}"
+            },
+            "bump": {
+                "value": "{color.purple_lavanda.value}"
+            },
+            "bundle_sale": {
+                "value": "{color.green_grass.value}"
+            },
+            "chat_quota": {
+                "value": "{color.blue_sky.value}"
+            },
+            "chat_with_newbies": {
+                "value": "{color.green_grass.value}"
+            },
+            "chat_with_tired": {
+                "value": "{color.red_carrot.value}"
+            },
+            "criteria": {
+                "value": "{color.primary.value}"
+            },
+            "crush": {
+                "value": "{color.purple_lavanda.value}"
+            },
+            "extra_shows": {
+                "value": "{color.green_dew.value}"
+            },
+            "favourites": {
+                "value": "{color.yellow_sun.value}"
+            },
+            "invisible_mode": {
+                "value": "{color.blue_sky.value}"
+            },
+            "liked_you": {
+                "value": "{color.red_carrot.value}"
+            },
+            "never_loose_account": {
+                "value": "{color.green_grass.value}"
+            },
+            "riseup": {
+                "value": "{color.green_grass.value}"
+            },
+            "special_delivery": {
+                "value": "{color.blue_rain.value}"
+            },
+            "spotlight": {
+                "value": "{color.blue_rain.value}"
+            },
+            "spp": {
+                "value": "{color.primary.value}"
+            },
+            "undo": {
+                "value": "{color.primary.value}"
+            },
+            "verification": {
+                "value": "{color.blue_sky.value}"
+            }
+        }
+    }
+}

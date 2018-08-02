@@ -1,0 +1,15 @@
+{
+  "name": "style-dictionary-demo",
+  "version": "0.0.1",
+  "description": "Implementation of Design Tokens using Style Dictionary",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build_tools/build.js"
+  },
+  "author": "Cristiano Rastelli",
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "^2.2.1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "brick": {
+        "size": {
+            "xxsm": {
+                "value": "36px"
+            },
+            "sm": {
+                "value": "70px"
+            },
+            "md": {
+                "value": "100px"
+            },
+            "lg": {
+                "value": "120px"
+            },
+            "xlg": {
+                "value": "150px"
+            }
+        },
+        "border_radius": {
+            "circle": {
+                "value": "50%"
+            },
+            "squared": {
+                "value": "16%"
+            }
+        }
+    }
+}

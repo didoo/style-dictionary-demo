@@ -1,0 +1,12 @@
+{
+    "springbox": {
+        "spacing": {
+            "media_content": {
+                "value": "{spacing.md.value}"
+            },
+            "content_extra": {
+                "value": "{spacing.md.value}"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "color": {
+        "provider": {
+            "facebook": {
+                "value": "#4867aa"
+            },
+            "twitter": {
+                "value": "#1ab0ff"
+            },
+            "vkontakte": {
+                "value": "#507299"
+            },
+            "odnoklassniki": {
+                "value": "#ff8201"
+            },
+            "google": {
+                "value": "#dc4a3d"
+            },
+            "instagram": {
+                "value": "#d93175"
+            },
+            "linkedin": {
+                "value": "#0076b7"
+            }
+        }
+    }
+}

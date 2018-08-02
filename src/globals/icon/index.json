@@ -1,0 +1,35 @@
+{
+    "icon": {
+        "size": {
+            "xsm": {
+                "value": "10px",
+                "documentation": {
+                    "comment": "Notice: this value should actually be 12px but we have to double check with the designers what is the impact of this change"
+                }
+            },
+            "sm": {
+                "value": "16px"
+            },
+            "md": {
+                "value": "22px"
+            },
+            "lg": {
+                "value": "30px"
+            },
+            "xlg": {
+                "value": "36px"
+            },
+            "xxlg": {
+                "value": "46px"
+            }
+        },
+        "jumbo-size": {
+            "md": {
+                "value": "{brick.size.md.value}"
+            },
+            "lg": {
+                "value": "{brick.size.lg.value}"
+            }
+        }
+    }
+}

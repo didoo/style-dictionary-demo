@@ -1,0 +1,20 @@
+{
+    "tabbar": {
+        "height": {
+            "value": "50px"
+        },
+        "icon": {
+            "size": {
+                "value": "30px"
+            }
+        },
+        "animation": {
+            "timing_bounce": {
+                "value": "0.9s"
+            },
+            "timing_popout": {
+                "value": "3.0s"
+            }
+        }
+    }
+}
