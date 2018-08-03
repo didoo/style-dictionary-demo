@@ -5,7 +5,7 @@
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./build_tools/build.js"
+    "build": "node ./build.js"
   },
   "author": "Cristiano Rastelli",
   "license": "MIT",

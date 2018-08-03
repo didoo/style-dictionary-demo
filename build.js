@@ -1,4 +1,4 @@
-/* eslint-disable */
+const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -136,4 +136,82 @@ function getStyleDictionaryConfig(brand, platform) {
     };
 }
 
-module.exports = getStyleDictionaryConfig;
+// REGISTER CUSTOM FORMATS + TRANSFORMS + TRANSFORM GROUPS
+
+// if you want to see the available pre-defined formats, transforms and transform groups uncomment this
+// console.log(StyleDictionary);
+
+StyleDictionaryPackage.registerFormat({
+    name: 'json/flat',
+    formatter: function(dictionary) {
+        // console.log(dictionary.allProperties);
+        return JSON.stringify(dictionary.allProperties, null, 2);
+    }
+});
+
+// we wanted to use this custom transform instead of the "prefix" property applied to the platforms
+// because we wanted to apply the "token" prefix only to actual tokens and not to the aliases
+// but we found out that in case of "name/cti/constant" the prefix was not respecting the case for the "prefix"
+//
+// StyleDictionaryPackage.registerTransform({
+//     name: 'name/prefix-token',
+//     type: 'name',
+//     matcher: function(prop) {
+//         return prop.attributes.category !== 'alias';
+//     },
+//     transformer: function(prop) {
+//         return `token-${prop.name}`;
+//     }
+// });
+
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'styleguide',
+    transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"]
+});
+
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'tokens-js',
+    transforms: ["name/cti/constant", "size/px", "color/hex"]
+});
+
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'tokens-json',
+    transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"]
+});
+
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'tokens-scss',
+    // to see the pre-defined "scss" transformation use: console.log(StyleDictionary.transformGroup['scss']);
+    transforms: [ "name/cti/kebab", "time/seconds", "size/px", "color/css" ]
+});
+
+console.log('Build started...');
+
+// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
+
+['web', 'ios', 'android'].map(function(platform) {
+    ['brand#1', 'brand#2', 'brand#3'].map(function(brand) {
+
+        console.log('\n==============================================');
+        console.log(`\nProcessing: [${platform}] [${brand}]`);
+
+        const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, platform));
+
+        if (platform === 'web') {
+            StyleDictionary.buildPlatform('web/js');
+            StyleDictionary.buildPlatform('web/json');
+            StyleDictionary.buildPlatform('web/scss');
+        } else if (platform === 'ios') {
+            StyleDictionary.buildPlatform('ios');
+        } else if (platform === 'android') {
+            StyleDictionary.buildPlatform('android');
+        }
+        StyleDictionary.buildPlatform('styleguide');
+
+        console.log('\nEnd processing');
+
+    })
+})
+
+console.log('\n==============================================');
+console.log('\nBuild completed!');
