@@ -7,16 +7,16 @@
             "value": "{alias.color.brand.secondary.value}"
         },
         "green": {
-            "value": "#4A8C70"
+            "value": "#4A8C70",
+            "attributes": {
+                "comment": "look how this comment will appear in the generated Scss files"
+            }
         },
         "blue": {
             "value": "#14213D"
         },
         "yellow": {
             "value": "#FCA311"
-        },
-        "azur": {
-            "value": "#ADE8F7"
         },
         "red": {
             "value": "#BF0603"

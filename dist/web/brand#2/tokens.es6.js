@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri Aug 03 2018 00:39:09 GMT+0100 (BST)
+ * Generated on Fri Aug 03 2018 08:52:38 GMT+0100 (BST)
  */
 
 export const TOKEN_ALIAS_COLOR_BRAND_PRIMARY = '#1DA1F2';
@@ -32,7 +32,6 @@ export const TOKEN_COLOR_SECONDARY = '#AAB8C2';
 export const TOKEN_COLOR_GREEN = '#4A8C70';
 export const TOKEN_COLOR_BLUE = '#14213D';
 export const TOKEN_COLOR_YELLOW = '#FCA311';
-export const TOKEN_COLOR_AZUR = '#ADE8F7';
 export const TOKEN_COLOR_RED = '#BF0603';
 export const TOKEN_COLOR_FEATURE_CHAT = '#4A8C70';
 export const TOKEN_COLOR_FEATURE_BLOG = '#14213D';

@@ -439,14 +439,18 @@
   },
   {
     "value": "#4a8c70",
-    "original": {
-      "value": "#4A8C70"
-    },
-    "name": "token-color-green",
     "attributes": {
+      "comment": "look how this comment will appear in the generated Scss files",
       "category": "color",
       "type": "green"
     },
+    "original": {
+      "value": "#4A8C70",
+      "attributes": {
+        "comment": "look how this comment will appear in the generated Scss files"
+      }
+    },
+    "name": "token-color-green",
     "path": [
       "color",
       "green"
@@ -480,21 +484,6 @@
     "path": [
       "color",
       "yellow"
-    ]
-  },
-  {
-    "value": "#ade8f7",
-    "original": {
-      "value": "#ADE8F7"
-    },
-    "name": "token-color-azur",
-    "attributes": {
-      "category": "color",
-      "type": "azur"
-    },
-    "path": [
-      "color",
-      "azur"
     ]
   },
   {

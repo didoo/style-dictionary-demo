@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri Aug 03 2018 00:39:09 GMT+0100 (BST)
+  Generated on Fri Aug 03 2018 08:52:38 GMT+0100 (BST)
 -->
 <resources>
   <color name="token_color_primary">#EA4335</color>
@@ -10,7 +10,6 @@
   <color name="token_color_green">#ff4a8c70</color>
   <color name="token_color_blue">#ff14213d</color>
   <color name="token_color_yellow">#fffca311</color>
-  <color name="token_color_azur">#ffade8f7</color>
   <color name="token_color_red">#ffbf0603</color>
   <color name="token_color_feature_chat">#ff4a8c70</color>
   <color name="token_color_feature_blog">#ff14213d</color>

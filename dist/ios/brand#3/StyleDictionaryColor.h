@@ -2,7 +2,7 @@
 //
 // StyleDictionaryColor.h
 //
-// Do not edit directly, generated on Fri Aug 03 2018 00:39:09 GMT+0100 (BST)
+// Do not edit directly, generated on Fri Aug 03 2018 08:52:38 GMT+0100 (BST)
 //
 
 #import <UIKit/UIKit.h>
@@ -14,7 +14,6 @@ ColorSecondary,
 ColorGreen,
 ColorBlue,
 ColorYellow,
-ColorAzur,
 ColorRed,
 ColorFeatureChat,
 ColorFeatureBlog,
