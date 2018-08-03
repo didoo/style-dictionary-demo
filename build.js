@@ -72,10 +72,7 @@ function getStyleDictionaryConfig(brand, platform) {
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
                 "files": [
-                    {
-                        "destination": "font_dimens.xml",
-                        "template": "android/fontDimens"
-                    },
+                    // I still have to agree with the Android devs which format they prefer, so for now I use the default example found in the Style Dictionary documentation
                     {
                         "destination": "colors.xml",
                         "template": "android/colors"
@@ -86,6 +83,7 @@ function getStyleDictionaryConfig(brand, platform) {
                 "transformGroup": "ios",
                 "buildPath": `dist/ios/${brand}/`,
                 "files": [
+                    // I still have to agree with the iOS devs which format they prefer, so for now I use the default example found in the Style Dictionary documentation
                     {
                         "destination": "StyleDictionaryColor.h",
                         "template": "ios/colors.h",
@@ -105,28 +103,6 @@ function getStyleDictionaryConfig(brand, platform) {
                         "filter": {
                             "attributes": {
                                 "category": "color"
-                            }
-                        }
-                    },
-                    {
-                        "destination": "StyleDictionarySize.h",
-                        "template": "ios/static.h",
-                        "className": "StyleDictionarySize",
-                        "type": "float",
-                        "filter": {
-                            "attributes": {
-                                "category": "size"
-                            }
-                        }
-                    },
-                    {
-                        "destination": "StyleDictionarySize.m",
-                        "template": "ios/static.m",
-                        "className": "StyleDictionarySize",
-                        "type": "float",
-                        "filter": {
-                            "attributes": {
-                                "category": "size"
                             }
                         }
                     }
