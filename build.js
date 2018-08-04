@@ -72,6 +72,8 @@ function getStyleDictionaryConfig(brand, platform) {
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
                 "files": [
+                    // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
+                    // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
                     {
                         "destination": "tokens-all-generic.xml",
                         "template": "android/generic"
@@ -90,28 +92,12 @@ function getStyleDictionaryConfig(brand, platform) {
                 "transformGroup": "ios",
                 "buildPath": `dist/ios/${brand}/`,
                 "files": [
-                    // I still have to agree with the iOS devs which format they prefer, so for now I use the default example found in the Style Dictionary documentation
+                    // there are different formats for iOS (JSON, PLIST, etc.) so you will have to agree with the iOS devs which format they prefer
+                    // but keep in mind that Style Dictionary offers some default formats/templates for iOS, so have a look
+                    // at the documentation before creating custom templates/formats, maybe they already work for you :)
                     {
-                        "destination": "StyleDictionaryColor.h",
-                        "template": "ios/colors.h",
-                        "className": "StyleDictionaryColor",
-                        "type": "StyleDictionaryColorName",
-                        "filter": {
-                            "attributes": {
-                                "category": "color"
-                            }
-                        }
-                    },
-                    {
-                        "destination": "StyleDictionaryColor.m",
-                        "template": "ios/colors.m",
-                        "className": "StyleDictionaryColor",
-                        "type": "StyleDictionaryColorName",
-                        "filter": {
-                            "attributes": {
-                                "category": "color"
-                            }
-                        }
+                        "destination": "tokens-colors.plist",
+                        "template": "ios/colors.plist"
                     }
                 ]
             }
@@ -129,6 +115,11 @@ StyleDictionaryPackage.registerFormat({
     formatter: function(dictionary) {
         return JSON.stringify(dictionary.allProperties, null, 2);
     }
+});
+
+StyleDictionaryPackage.registerTemplate({
+    name: 'ios/colors.plist',
+    template: __dirname + '/templates/ios-colors.template'
 });
 
 StyleDictionaryPackage.registerTemplate({

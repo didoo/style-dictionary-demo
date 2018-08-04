@@ -4,10 +4,12 @@
             "brand": {
                 "primary": {
                     "value": "#3B5998",
+                    "type": "color",
                     "comment": "aaaa"
                 },
                 "secondary": {
                     "value": "#4267B2",
+                    "type": "color",
                     "comment": "bbbb"
                 }
             }

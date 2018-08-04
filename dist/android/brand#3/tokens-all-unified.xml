@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resources>
-    <item name="token_alias_color_brand_primary">#EA4335item
-    <item name="token_alias_color_brand_secondary">#34A853item
+    <color name="token_alias_color_brand_primary">#EA4335color
+    <color name="token_alias_color_brand_secondary">#34A853color
     <item name="token_avatar_size_xxsm">36pxitem
     <item name="token_avatar_size_sm">72pxitem
     <item name="token_avatar_size_md">90pxitem

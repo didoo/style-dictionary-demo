@@ -1,9 +1,11 @@
 [
   {
     "value": "#3B5998",
+    "type": "color",
     "comment": "aaaa",
     "original": {
       "value": "#3B5998",
+      "type": "color",
       "comment": "aaaa"
     },
     "name": "token-alias-color-brand-primary",
@@ -22,9 +24,11 @@
   },
   {
     "value": "#4267B2",
+    "type": "color",
     "comment": "bbbb",
     "original": {
       "value": "#4267B2",
+      "type": "color",
       "comment": "bbbb"
     },
     "name": "token-alias-color-brand-secondary",

@@ -1,8 +1,10 @@
 [
   {
     "value": "#EA4335",
+    "type": "color",
     "original": {
-      "value": "#EA4335"
+      "value": "#EA4335",
+      "type": "color"
     },
     "name": "token-alias-color-brand-primary",
     "attributes": {
@@ -20,8 +22,10 @@
   },
   {
     "value": "#34A853",
+    "type": "color",
     "original": {
-      "value": "#34A853"
+      "value": "#34A853",
+      "type": "color"
     },
     "name": "token-alias-color-brand-secondary",
     "attributes": {
