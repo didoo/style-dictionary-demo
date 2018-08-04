@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <color name="token_color_primary">#3B5998</item>
+    <color name="token_color_secondary">#4267B2</item>
+    <color name="token_color_green">#ff4a8c70</item><!-- look how this comment will appear in the generated Scss files -->
+    <color name="token_color_blue">#ff14213d</item>
+    <color name="token_color_yellow">#fffca311</item>
+    <color name="token_color_red">#ffbf0603</item>
+    <color name="token_color_feature_chat">#ff4a8c70</item>
+    <color name="token_color_feature_blog">#ff14213d</item>
+    <color name="token_color_feature_shop">#fffca311</item>
+    <color name="token_color_feature_settings">#ffbf0603</item>
+    <color name="token_color_black">#ff000000</item>
+    <color name="token_color_gray_60">#ff6a6a6a</item>
+    <color name="token_color_gray_40">#ff949494</item>
+    <color name="token_color_gray_24">#ffc4c4c4</item>
+    <color name="token_color_gray_12">#ffe0e0e0</item>
+    <color name="token_color_gray_3">#fff6f6f6</item>
+    <color name="token_color_action_primary">#3B5998</item>
+    <color name="token_color_action_destructive">#ffbf0603</item>
+    <color name="token_color_border">#ffe0e0e0</item>
+    <color name="token_color_user_authenticated">#ff4a8c70</item>
+    <color name="token_color_user_anonymous">#ff949494</item>
+    <color name="token_color_social_facebook">#ff4867aa</item>
+    <color name="token_color_social_twitter">#ff1ab0ff</item>
+    <color name="token_color_social_vkontakte">#ff507299</item>
+    <color name="token_color_social_odnoklassniki">#ffff8201</item>
+    <color name="token_color_social_google">#ffdc4a3d</item>
+    <color name="token_color_social_instagram">#ffd93175</item>
+    <color name="token_color_social_linkedin">#ff0076b7</item>
+    
+</resources>

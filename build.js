@@ -72,9 +72,16 @@ function getStyleDictionaryConfig(brand, platform) {
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
                 "files": [
-                    // I still have to agree with the Android devs which format they prefer, so for now I use the default example found in the Style Dictionary documentation
                     {
-                        "destination": "colors.xml",
+                        "destination": "tokens-all-generic.xml",
+                        "template": "android/generic"
+                    },
+                    {
+                        "destination": "tokens-all-unified.xml",
+                        "template": "android/unified"
+                    },
+                    {
+                        "destination": "tokens-colors.xml",
                         "template": "android/colors"
                     }
                 ]
@@ -112,7 +119,7 @@ function getStyleDictionaryConfig(brand, platform) {
     };
 }
 
-// REGISTER CUSTOM FORMATS + TRANSFORMS + TRANSFORM GROUPS
+// REGISTER CUSTOM FORMATS + TEMPLATES + TRANSFORMS + TRANSFORM GROUPS
 
 // if you want to see the available pre-defined formats, transforms and transform groups uncomment this
 // console.log(StyleDictionary);
@@ -120,14 +127,28 @@ function getStyleDictionaryConfig(brand, platform) {
 StyleDictionaryPackage.registerFormat({
     name: 'json/flat',
     formatter: function(dictionary) {
-        // console.log(dictionary.allProperties);
         return JSON.stringify(dictionary.allProperties, null, 2);
     }
 });
 
-// we wanted to use this custom transform instead of the "prefix" property applied to the platforms
-// because we wanted to apply the "token" prefix only to actual tokens and not to the aliases
-// but we found out that in case of "name/cti/constant" the prefix was not respecting the case for the "prefix"
+StyleDictionaryPackage.registerTemplate({
+    name: 'android/generic',
+    template: __dirname + '/templates/android-generic.template'
+});
+
+StyleDictionaryPackage.registerTemplate({
+    name: 'android/colors',
+    template: __dirname + '/templates/android-colors.template'
+});
+
+StyleDictionaryPackage.registerTemplate({
+    name: 'android/unified',
+    template: __dirname + '/templates/android-unified.template'
+});
+
+// I wanted to use this custom transform instead of the "prefix" property applied to the platforms
+// because I wanted to apply the "token" prefix only to actual tokens and not to the aliases
+// but I've found out that in case of "name/cti/constant" the prefix was not respecting the case for the "prefix" part
 //
 // StyleDictionaryPackage.registerTransform({
 //     name: 'name/prefix-token',

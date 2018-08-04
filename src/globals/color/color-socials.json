@@ -2,25 +2,32 @@
     "color": {
         "social": {
             "facebook": {
-                "value": "#4867aa"
+                "value": "#4867aa",
+                "type": "color"
             },
             "twitter": {
-                "value": "#1ab0ff"
+                "value": "#1ab0ff",
+                "type": "color"
             },
             "vkontakte": {
-                "value": "#507299"
+                "value": "#507299",
+                "type": "color"
             },
             "odnoklassniki": {
-                "value": "#ff8201"
+                "value": "#ff8201",
+                "type": "color"
             },
             "google": {
-                "value": "#dc4a3d"
+                "value": "#dc4a3d",
+                "type": "color"
             },
             "instagram": {
-                "value": "#d93175"
+                "value": "#d93175",
+                "type": "color"
             },
             "linkedin": {
-                "value": "#0076b7"
+                "value": "#0076b7",
+                "type": "color"
             }
         }
     }

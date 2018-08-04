@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<%
+var allProperties = _.each(allProperties, function(prop) {
+    // here I am mimicking the pre-defined Android formats that come with Style Dictionary, but using my "custom" categories (declared directly with the value as "type" prop)
+    if(prop.type === 'color') {
+        prop.tag = 'color';
+    } else if(prop.type === 'dimension') {
+        prop.tag = 'dimen';
+    } else if(prop.type === 'time') {
+        prop.tag = 'integer';
+    } else if(prop.type === 'content') {
+        prop.tag = 'string';
+    } else {
+        prop.tag = 'item';
+    }
+});
+%>
+<resources>
+    <% _.each(allProperties, function(prop) {
+    %><<%= prop.tag %> name="<%= prop.name %>"><%= prop.value %><%= prop.tag %><% if (prop.attributes && prop.attributes.comment) { %><!-- <%= prop.attributes.comment %> --><% } %>
+    <% }); %>
+</resources>

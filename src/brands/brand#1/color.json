@@ -3,10 +3,12 @@
         "color": {
             "brand": {
                 "primary": {
-                    "value": "#3B5998"
+                    "value": "#3B5998",
+                    "comment": "aaaa"
                 },
                 "secondary": {
-                    "value": "#4267B2"
+                    "value": "#4267B2",
+                    "comment": "bbbb"
                 }
             }
         }

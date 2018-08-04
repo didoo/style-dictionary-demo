@@ -1,22 +1,28 @@
 {
     "color": {
         "black": {
-            "value": "#000"
+            "value": "#000",
+            "type": "color"
         },
         "gray_60": {
-            "value": "#6a6a6a"
+            "value": "#6a6a6a",
+            "type": "color"
         },
         "gray_40": {
-            "value": "#949494"
+            "value": "#949494",
+            "type": "color"
         },
         "gray_24": {
-            "value": "#c4c4c4"
+            "value": "#c4c4c4",
+            "type": "color"
         },
         "gray_12": {
-            "value": "#e0e0e0"
+            "value": "#e0e0e0",
+            "type": "color"
         },
         "gray_3": {
-            "value": "#f6f6f6"
+            "value": "#f6f6f6",
+            "type": "color"
         }
     }
 }

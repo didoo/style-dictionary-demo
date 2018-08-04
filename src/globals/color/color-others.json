@@ -1,20 +1,25 @@
 {
     "color": {
         "action_primary": {
-            "value": "{color.primary.value}"
+            "value": "{color.primary.value}",
+            "type": "color"
         },
         "action_destructive": {
-            "value": "{color.red.value}"
+            "value": "{color.red.value}",
+            "type": "color"
         },
         "border": {
-            "value": "{color.gray_12.value}"
+            "value": "{color.gray_12.value}",
+            "type": "color"
         },
         "user": {
             "authenticated": {
-                "value": "{color.green.value}"
+                "value": "{color.green.value}",
+                "type": "color"
             },
             "anonymous": {
-                "value": "{color.gray_40.value}"
+                "value": "{color.gray_40.value}",
+                "type": "color"
             }
         }
     }

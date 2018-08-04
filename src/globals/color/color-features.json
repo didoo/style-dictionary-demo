@@ -2,16 +2,20 @@
     "color": {
         "feature": {
             "chat": {
-                "value": "{color.green.value}"
+                "value": "{color.green.value}",
+                "type": "color"
             },
             "blog": {
-                "value": "{color.blue.value}"
+                "value": "{color.blue.value}",
+                "type": "color"
             },
             "shop": {
-                "value": "{color.yellow.value}"
+                "value": "{color.yellow.value}",
+                "type": "color"
             },
             "settings": {
-                "value": "{color.red.value}"
+                "value": "{color.red.value}",
+                "type": "color"
             }
         }
     }

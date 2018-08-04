@@ -1,8 +1,10 @@
 [
   {
     "value": "#3B5998",
+    "comment": "aaaa",
     "original": {
-      "value": "#3B5998"
+      "value": "#3B5998",
+      "comment": "aaaa"
     },
     "name": "token-alias-color-brand-primary",
     "attributes": {
@@ -20,8 +22,10 @@
   },
   {
     "value": "#4267B2",
+    "comment": "bbbb",
     "original": {
-      "value": "#4267B2"
+      "value": "#4267B2",
+      "comment": "bbbb"
     },
     "name": "token-alias-color-brand-secondary",
     "attributes": {
@@ -409,8 +413,10 @@
   },
   {
     "value": "#3B5998",
+    "type": "color",
     "original": {
-      "value": "{alias.color.brand.primary.value}"
+      "value": "{alias.color.brand.primary.value}",
+      "type": "color"
     },
     "name": "token-color-primary",
     "attributes": {
@@ -424,8 +430,10 @@
   },
   {
     "value": "#4267B2",
+    "type": "color",
     "original": {
-      "value": "{alias.color.brand.secondary.value}"
+      "value": "{alias.color.brand.secondary.value}",
+      "type": "color"
     },
     "name": "token-color-secondary",
     "attributes": {
@@ -439,6 +447,7 @@
   },
   {
     "value": "#4a8c70",
+    "type": "color",
     "attributes": {
       "comment": "look how this comment will appear in the generated Scss files",
       "category": "color",
@@ -446,6 +455,7 @@
     },
     "original": {
       "value": "#4A8C70",
+      "type": "color",
       "attributes": {
         "comment": "look how this comment will appear in the generated Scss files"
       }
@@ -458,8 +468,10 @@
   },
   {
     "value": "#14213d",
+    "type": "color",
     "original": {
-      "value": "#14213D"
+      "value": "#14213D",
+      "type": "color"
     },
     "name": "token-color-blue",
     "attributes": {
@@ -473,8 +485,10 @@
   },
   {
     "value": "#fca311",
+    "type": "color",
     "original": {
-      "value": "#FCA311"
+      "value": "#FCA311",
+      "type": "color"
     },
     "name": "token-color-yellow",
     "attributes": {
@@ -488,8 +502,10 @@
   },
   {
     "value": "#bf0603",
+    "type": "color",
     "original": {
-      "value": "#BF0603"
+      "value": "#BF0603",
+      "type": "color"
     },
     "name": "token-color-red",
     "attributes": {
@@ -503,8 +519,10 @@
   },
   {
     "value": "#4a8c70",
+    "type": "color",
     "original": {
-      "value": "{color.green.value}"
+      "value": "{color.green.value}",
+      "type": "color"
     },
     "name": "token-color-feature-chat",
     "attributes": {
@@ -520,8 +538,10 @@
   },
   {
     "value": "#14213d",
+    "type": "color",
     "original": {
-      "value": "{color.blue.value}"
+      "value": "{color.blue.value}",
+      "type": "color"
     },
     "name": "token-color-feature-blog",
     "attributes": {
@@ -537,8 +557,10 @@
   },
   {
     "value": "#fca311",
+    "type": "color",
     "original": {
-      "value": "{color.yellow.value}"
+      "value": "{color.yellow.value}",
+      "type": "color"
     },
     "name": "token-color-feature-shop",
     "attributes": {
@@ -554,8 +576,10 @@
   },
   {
     "value": "#bf0603",
+    "type": "color",
     "original": {
-      "value": "{color.red.value}"
+      "value": "{color.red.value}",
+      "type": "color"
     },
     "name": "token-color-feature-settings",
     "attributes": {
@@ -571,8 +595,10 @@
   },
   {
     "value": "#000000",
+    "type": "color",
     "original": {
-      "value": "#000"
+      "value": "#000",
+      "type": "color"
     },
     "name": "token-color-black",
     "attributes": {
@@ -586,8 +612,10 @@
   },
   {
     "value": "#6a6a6a",
+    "type": "color",
     "original": {
-      "value": "#6a6a6a"
+      "value": "#6a6a6a",
+      "type": "color"
     },
     "name": "token-color-gray-60",
     "attributes": {
@@ -601,8 +629,10 @@
   },
   {
     "value": "#949494",
+    "type": "color",
     "original": {
-      "value": "#949494"
+      "value": "#949494",
+      "type": "color"
     },
     "name": "token-color-gray-40",
     "attributes": {
@@ -616,8 +646,10 @@
   },
   {
     "value": "#c4c4c4",
+    "type": "color",
     "original": {
-      "value": "#c4c4c4"
+      "value": "#c4c4c4",
+      "type": "color"
     },
     "name": "token-color-gray-24",
     "attributes": {
@@ -631,8 +663,10 @@
   },
   {
     "value": "#e0e0e0",
+    "type": "color",
     "original": {
-      "value": "#e0e0e0"
+      "value": "#e0e0e0",
+      "type": "color"
     },
     "name": "token-color-gray-12",
     "attributes": {
@@ -646,8 +680,10 @@
   },
   {
     "value": "#f6f6f6",
+    "type": "color",
     "original": {
-      "value": "#f6f6f6"
+      "value": "#f6f6f6",
+      "type": "color"
     },
     "name": "token-color-gray-3",
     "attributes": {
@@ -661,8 +697,10 @@
   },
   {
     "value": "#3B5998",
+    "type": "color",
     "original": {
-      "value": "{color.primary.value}"
+      "value": "{color.primary.value}",
+      "type": "color"
     },
     "name": "token-color-action-primary",
     "attributes": {
@@ -676,8 +714,10 @@
   },
   {
     "value": "#bf0603",
+    "type": "color",
     "original": {
-      "value": "{color.red.value}"
+      "value": "{color.red.value}",
+      "type": "color"
     },
     "name": "token-color-action-destructive",
     "attributes": {
@@ -691,8 +731,10 @@
   },
   {
     "value": "#e0e0e0",
+    "type": "color",
     "original": {
-      "value": "{color.gray_12.value}"
+      "value": "{color.gray_12.value}",
+      "type": "color"
     },
     "name": "token-color-border",
     "attributes": {
@@ -706,8 +748,10 @@
   },
   {
     "value": "#4a8c70",
+    "type": "color",
     "original": {
-      "value": "{color.green.value}"
+      "value": "{color.green.value}",
+      "type": "color"
     },
     "name": "token-color-user-authenticated",
     "attributes": {
@@ -723,8 +767,10 @@
   },
   {
     "value": "#949494",
+    "type": "color",
     "original": {
-      "value": "{color.gray_40.value}"
+      "value": "{color.gray_40.value}",
+      "type": "color"
     },
     "name": "token-color-user-anonymous",
     "attributes": {
@@ -740,8 +786,10 @@
   },
   {
     "value": "#4867aa",
+    "type": "color",
     "original": {
-      "value": "#4867aa"
+      "value": "#4867aa",
+      "type": "color"
     },
     "name": "token-color-social-facebook",
     "attributes": {
@@ -757,8 +805,10 @@
   },
   {
     "value": "#1ab0ff",
+    "type": "color",
     "original": {
-      "value": "#1ab0ff"
+      "value": "#1ab0ff",
+      "type": "color"
     },
     "name": "token-color-social-twitter",
     "attributes": {
@@ -774,8 +824,10 @@
   },
   {
     "value": "#507299",
+    "type": "color",
     "original": {
-      "value": "#507299"
+      "value": "#507299",
+      "type": "color"
     },
     "name": "token-color-social-vkontakte",
     "attributes": {
@@ -791,8 +843,10 @@
   },
   {
     "value": "#ff8201",
+    "type": "color",
     "original": {
-      "value": "#ff8201"
+      "value": "#ff8201",
+      "type": "color"
     },
     "name": "token-color-social-odnoklassniki",
     "attributes": {
@@ -808,8 +862,10 @@
   },
   {
     "value": "#dc4a3d",
+    "type": "color",
     "original": {
-      "value": "#dc4a3d"
+      "value": "#dc4a3d",
+      "type": "color"
     },
     "name": "token-color-social-google",
     "attributes": {
@@ -825,8 +881,10 @@
   },
   {
     "value": "#d93175",
+    "type": "color",
     "original": {
-      "value": "#d93175"
+      "value": "#d93175",
+      "type": "color"
     },
     "name": "token-color-social-instagram",
     "attributes": {
@@ -842,8 +900,10 @@
   },
   {
     "value": "#0076b7",
+    "type": "color",
     "original": {
-      "value": "#0076b7"
+      "value": "#0076b7",
+      "type": "color"
     },
     "name": "token-color-social-linkedin",
     "attributes": {

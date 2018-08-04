@@ -10,6 +10,7 @@
   "author": "Cristiano Rastelli",
   "license": "MIT",
   "devDependencies": {
-    "style-dictionary": "^2.2.1"
+    "style-dictionary": "^2.2.1",
+    "handlebars": "^4.0.11"
   }
 }

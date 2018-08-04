@@ -1,25 +1,31 @@
 {
     "color": {
         "primary": {
-            "value": "{alias.color.brand.primary.value}"
+            "value": "{alias.color.brand.primary.value}",
+            "type": "color"
         },
         "secondary": {
-            "value": "{alias.color.brand.secondary.value}"
+            "value": "{alias.color.brand.secondary.value}",
+            "type": "color"
         },
         "green": {
             "value": "#4A8C70",
+            "type": "color",
             "attributes": {
                 "comment": "look how this comment will appear in the generated Scss files"
             }
         },
         "blue": {
-            "value": "#14213D"
+            "value": "#14213D",
+            "type": "color"
         },
         "yellow": {
-            "value": "#FCA311"
+            "value": "#FCA311",
+            "type": "color"
         },
         "red": {
-            "value": "#BF0603"
+            "value": "#BF0603",
+            "type": "color"
         }
     }
 }
