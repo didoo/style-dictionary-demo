@@ -5,12 +5,12 @@
                 "primary": {
                     "value": "#3B5998",
                     "type": "color",
-                    "comment": "aaaa"
+                    "comment": "this is a comment"
                 },
                 "secondary": {
                     "value": "#4267B2",
                     "type": "color",
-                    "comment": "bbbb"
+                    "comment": "this one is a comment too"
                 }
             }
         }

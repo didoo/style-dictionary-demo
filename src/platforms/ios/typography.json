@@ -1,7 +1,7 @@
 {
     "font_family": {
         "system": {
-            "value": "System",
+            "value": "system",
             "category": "typography"
         },
         "custom": {

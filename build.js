@@ -67,13 +67,32 @@ function getStyleDictionaryConfig(brand, platform) {
                     }
                 ]
             },
+            // there are different possible formats for iOS (JSON, PLIST, etc.) so you will have to agree with the iOS devs which format they prefer
+            "ios": {
+                // I have used custom formats for iOS but keep in mind that Style Dictionary offers some default formats/templates for iOS,
+                // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
+                "transformGroup": "tokens-ios",
+                "buildPath": `dist/ios/${brand}/`,
+                "prefix": "token",
+                "files": [
+                    {
+                        "destination": "tokens-all-generic.plist",
+                        "template": "ios/generic.plist"
+                    },
+                    {
+                        "destination": "tokens-colors.plist",
+                        "template": "ios/colors.plist"
+                    }
+                ]
+            },
             "android": {
+                // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
+                // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
                 "transformGroup": "android",
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
+                "prefix": "token",
                 "files": [
-                    // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
-                    // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
                     {
                         "destination": "tokens-all-generic.xml",
                         "template": "android/generic"
@@ -85,19 +104,6 @@ function getStyleDictionaryConfig(brand, platform) {
                     {
                         "destination": "tokens-colors.xml",
                         "template": "android/colors"
-                    }
-                ]
-            },
-            "ios": {
-                "transformGroup": "ios",
-                "buildPath": `dist/ios/${brand}/`,
-                "files": [
-                    // there are different formats for iOS (JSON, PLIST, etc.) so you will have to agree with the iOS devs which format they prefer
-                    // but keep in mind that Style Dictionary offers some default formats/templates for iOS, so have a look
-                    // at the documentation before creating custom templates/formats, maybe they already work for you :)
-                    {
-                        "destination": "tokens-colors.plist",
-                        "template": "ios/colors.plist"
                     }
                 ]
             }
@@ -115,6 +121,11 @@ StyleDictionaryPackage.registerFormat({
     formatter: function(dictionary) {
         return JSON.stringify(dictionary.allProperties, null, 2);
     }
+});
+
+StyleDictionaryPackage.registerTemplate({
+    name: 'ios/generic.plist',
+    template: __dirname + '/templates/ios-generic.template'
 });
 
 StyleDictionaryPackage.registerTemplate({
@@ -152,6 +163,17 @@ StyleDictionaryPackage.registerTemplate({
 //     }
 // });
 
+StyleDictionaryPackage.registerTransform({
+    name: 'size/pxToPt',
+    type: 'value',
+    matcher: function(prop) {
+        return prop.value.match(/^[\d.]+px$/);
+    },
+    transformer: function(prop) {
+        return prop.value.replace(/px$/, 'pt');
+    }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
     name: 'styleguide',
     transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"]
@@ -173,7 +195,15 @@ StyleDictionaryPackage.registerTransformGroup({
     transforms: [ "name/cti/kebab", "time/seconds", "size/px", "color/css" ]
 });
 
-console.log('Build started...');
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'tokens-ios',
+    // to see the pre-defined "ios" transformation use: console.log(StyleDictionaryPackage.transformGroup['ios']);
+    // "attribute/cti", "name/cti/pascal", "color/UIColor", "content/objC/literal", "asset/objC/literal", "size/remToPt", "font/objC/literal"
+    transforms: [ "attribute/cti", "name/cti/camel", "size/pxToPt"]
+});
+
+
+  console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
