@@ -26,7 +26,7 @@
     <item name="token_button_height_small">44px</item>
     <item name="token_color_primary">#EA4335</item>
     <item name="token_color_secondary">#34A853</item>
-    <item name="token_color_green">#ff4a8c70</item><!-- look how this comment will appear in the generated Scss files -->
+    <item name="token_color_green">#ff4a8c70</item><!-- look how this comment will appear in the generated files -->
     <item name="token_color_blue">#ff14213d</item>
     <item name="token_color_yellow">#fffca311</item>
     <item name="token_color_red">#ffbf0603</item>

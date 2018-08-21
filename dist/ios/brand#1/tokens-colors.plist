@@ -5,36 +5,36 @@
 <dict>
     <key>colorStyle</key>
     <dict>
-    <key>AliasColorBrandPrimary</key><string>#3B5998</string>
-    <key>AliasColorBrandSecondary</key><string>#4267B2</string>
-    <key>ColorPrimary</key><string>#3B5998</string>
-    <key>ColorSecondary</key><string>#4267B2</string>
-    <key>ColorGreen</key><string>[UIColor colorWithRed:0.29f green:0.55f blue:0.44f alpha:1.00f]</string><!-- look how this comment will appear in the generated Scss files -->
-    <key>ColorBlue</key><string>[UIColor colorWithRed:0.08f green:0.13f blue:0.24f alpha:1.00f]</string>
-    <key>ColorYellow</key><string>[UIColor colorWithRed:0.99f green:0.64f blue:0.07f alpha:1.00f]</string>
-    <key>ColorRed</key><string>[UIColor colorWithRed:0.75f green:0.02f blue:0.01f alpha:1.00f]</string>
-    <key>ColorFeatureChat</key><string>[UIColor colorWithRed:0.29f green:0.55f blue:0.44f alpha:1.00f]</string>
-    <key>ColorFeatureBlog</key><string>[UIColor colorWithRed:0.08f green:0.13f blue:0.24f alpha:1.00f]</string>
-    <key>ColorFeatureShop</key><string>[UIColor colorWithRed:0.99f green:0.64f blue:0.07f alpha:1.00f]</string>
-    <key>ColorFeatureSettings</key><string>[UIColor colorWithRed:0.75f green:0.02f blue:0.01f alpha:1.00f]</string>
-    <key>ColorBlack</key><string>[UIColor colorWithRed:0.00f green:0.00f blue:0.00f alpha:1.00f]</string>
-    <key>ColorGray60</key><string>[UIColor colorWithRed:0.42f green:0.42f blue:0.42f alpha:1.00f]</string>
-    <key>ColorGray40</key><string>[UIColor colorWithRed:0.58f green:0.58f blue:0.58f alpha:1.00f]</string>
-    <key>ColorGray24</key><string>[UIColor colorWithRed:0.77f green:0.77f blue:0.77f alpha:1.00f]</string>
-    <key>ColorGray12</key><string>[UIColor colorWithRed:0.88f green:0.88f blue:0.88f alpha:1.00f]</string>
-    <key>ColorGray3</key><string>[UIColor colorWithRed:0.96f green:0.96f blue:0.96f alpha:1.00f]</string>
-    <key>ColorActionPrimary</key><string>#3B5998</string>
-    <key>ColorActionDestructive</key><string>[UIColor colorWithRed:0.75f green:0.02f blue:0.01f alpha:1.00f]</string>
-    <key>ColorBorder</key><string>[UIColor colorWithRed:0.88f green:0.88f blue:0.88f alpha:1.00f]</string>
-    <key>ColorUserAuthenticated</key><string>[UIColor colorWithRed:0.29f green:0.55f blue:0.44f alpha:1.00f]</string>
-    <key>ColorUserAnonymous</key><string>[UIColor colorWithRed:0.58f green:0.58f blue:0.58f alpha:1.00f]</string>
-    <key>ColorSocialFacebook</key><string>[UIColor colorWithRed:0.28f green:0.40f blue:0.67f alpha:1.00f]</string>
-    <key>ColorSocialTwitter</key><string>[UIColor colorWithRed:0.10f green:0.69f blue:1.00f alpha:1.00f]</string>
-    <key>ColorSocialVkontakte</key><string>[UIColor colorWithRed:0.31f green:0.45f blue:0.60f alpha:1.00f]</string>
-    <key>ColorSocialOdnoklassniki</key><string>[UIColor colorWithRed:1.00f green:0.51f blue:0.00f alpha:1.00f]</string>
-    <key>ColorSocialGoogle</key><string>[UIColor colorWithRed:0.86f green:0.29f blue:0.24f alpha:1.00f]</string>
-    <key>ColorSocialInstagram</key><string>[UIColor colorWithRed:0.85f green:0.19f blue:0.46f alpha:1.00f]</string>
-    <key>ColorSocialLinkedin</key><string>[UIColor colorWithRed:0.00f green:0.46f blue:0.72f alpha:1.00f]</string>
+    <key>tokenAliasColorBrandPrimary</key><string>#3B5998</string>
+    <key>tokenAliasColorBrandSecondary</key><string>#4267B2</string>
+    <key>tokenColorPrimary</key><string>#3B5998</string>
+    <key>tokenColorSecondary</key><string>#4267B2</string>
+    <key>tokenColorGreen</key><string>#4A8C70</string><!-- look how this comment will appear in the generated files -->
+    <key>tokenColorBlue</key><string>#14213D</string>
+    <key>tokenColorYellow</key><string>#FCA311</string>
+    <key>tokenColorRed</key><string>#BF0603</string>
+    <key>tokenColorFeatureChat</key><string>#4A8C70</string>
+    <key>tokenColorFeatureBlog</key><string>#14213D</string>
+    <key>tokenColorFeatureShop</key><string>#FCA311</string>
+    <key>tokenColorFeatureSettings</key><string>#BF0603</string>
+    <key>tokenColorBlack</key><string>#000</string>
+    <key>tokenColorGray60</key><string>#6a6a6a</string>
+    <key>tokenColorGray40</key><string>#949494</string>
+    <key>tokenColorGray24</key><string>#c4c4c4</string>
+    <key>tokenColorGray12</key><string>#e0e0e0</string>
+    <key>tokenColorGray3</key><string>#f6f6f6</string>
+    <key>tokenColorActionPrimary</key><string>#3B5998</string>
+    <key>tokenColorActionDestructive</key><string>#BF0603</string>
+    <key>tokenColorBorder</key><string>#e0e0e0</string>
+    <key>tokenColorUserAuthenticated</key><string>#4A8C70</string>
+    <key>tokenColorUserAnonymous</key><string>#949494</string>
+    <key>tokenColorSocialFacebook</key><string>#4867aa</string>
+    <key>tokenColorSocialTwitter</key><string>#1ab0ff</string>
+    <key>tokenColorSocialVkontakte</key><string>#507299</string>
+    <key>tokenColorSocialOdnoklassniki</key><string>#ff8201</string>
+    <key>tokenColorSocialGoogle</key><string>#dc4a3d</string>
+    <key>tokenColorSocialInstagram</key><string>#d93175</string>
+    <key>tokenColorSocialLinkedin</key><string>#0076b7</string>
     
 	</dict>
 </dict>

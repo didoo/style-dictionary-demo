@@ -5,7 +5,7 @@
     <color name="token_alias_color_brand_secondary">#AAB8C2</color>
     <color name="token_color_primary">#1DA1F2</color>
     <color name="token_color_secondary">#AAB8C2</color>
-    <color name="token_color_green">#ff4a8c70</color><!-- look how this comment will appear in the generated Scss files -->
+    <color name="token_color_green">#ff4a8c70</color><!-- look how this comment will appear in the generated files -->
     <color name="token_color_blue">#ff14213d</color>
     <color name="token_color_yellow">#fffca311</color>
     <color name="token_color_red">#ffbf0603</color>

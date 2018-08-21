@@ -449,7 +449,7 @@
     "value": "#4a8c70",
     "type": "color",
     "attributes": {
-      "comment": "look how this comment will appear in the generated Scss files",
+      "comment": "look how this comment will appear in the generated files",
       "category": "color",
       "type": "green"
     },
@@ -457,7 +457,7 @@
       "value": "#4A8C70",
       "type": "color",
       "attributes": {
-        "comment": "look how this comment will appear in the generated Scss files"
+        "comment": "look how this comment will appear in the generated files"
       }
     },
     "name": "token-color-green",
@@ -1603,10 +1603,10 @@
     ]
   },
   {
-    "value": "System",
+    "value": "system",
     "category": "typography",
     "original": {
-      "value": "System",
+      "value": "system",
       "category": "typography"
     },
     "name": "token-font-family-system",
