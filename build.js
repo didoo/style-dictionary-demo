@@ -108,7 +108,7 @@ function getStyleDictionaryConfig(brand, platform) {
 // REGISTER CUSTOM FORMATS + TEMPLATES + TRANSFORMS + TRANSFORM GROUPS
 
 // if you want to see the available pre-defined formats, transforms and transform groups uncomment this
-// console.log(StyleDictionary);
+// console.log(StyleDictionaryPackage);
 
 StyleDictionaryPackage.registerFormat({
     name: 'json/flat',
@@ -169,7 +169,7 @@ StyleDictionaryPackage.registerTransformGroup({
 
 StyleDictionaryPackage.registerTransformGroup({
     name: 'tokens-scss',
-    // to see the pre-defined "scss" transformation use: console.log(StyleDictionary.transformGroup['scss']);
+    // to see the pre-defined "scss" transformation use: console.log(StyleDictionaryPackage.transformGroup['scss']);
     transforms: [ "name/cti/kebab", "time/seconds", "size/px", "color/css" ]
 });
 
