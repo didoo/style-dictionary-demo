@@ -91,7 +91,6 @@ function getStyleDictionaryConfig(brand, platform) {
                 "transformGroup": "android",
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
-                "prefix": "token",
                 "files": [
                     {
                         "destination": "tokens-all-generic.xml",
@@ -198,7 +197,6 @@ StyleDictionaryPackage.registerTransformGroup({
 StyleDictionaryPackage.registerTransformGroup({
     name: 'tokens-ios',
     // to see the pre-defined "ios" transformation use: console.log(StyleDictionaryPackage.transformGroup['ios']);
-    // "attribute/cti", "name/cti/pascal", "color/UIColor", "content/objC/literal", "asset/objC/literal", "size/remToPt", "font/objC/literal"
     transforms: [ "attribute/cti", "name/cti/camel", "size/pxToPt"]
 });
 
