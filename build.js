@@ -88,7 +88,7 @@ function getStyleDictionaryConfig(brand, platform) {
             "android": {
                 // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
                 // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
-                "transformGroup": "android",
+                "transformGroup": "tokens-android",
                 "buildPath": `dist/android/${brand}/`,
                 "prefix": "token",
                 "files": [
@@ -173,6 +173,17 @@ StyleDictionaryPackage.registerTransform({
     }
 });
 
+StyleDictionaryPackage.registerTransform({
+    name: 'size/pxToDp',
+    type: 'value',
+    matcher: function(prop) {
+        return prop.value.match(/^[\d.]+px$/);
+    },
+    transformer: function(prop) {
+        return prop.value.replace(/px$/, 'dp');
+    }
+});
+
 StyleDictionaryPackage.registerTransformGroup({
     name: 'styleguide',
     transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"]
@@ -200,8 +211,15 @@ StyleDictionaryPackage.registerTransformGroup({
     transforms: [ "attribute/cti", "name/cti/camel", "size/pxToPt"]
 });
 
+StyleDictionaryPackage.registerTransformGroup({
+    name: 'tokens-android',
+    // to see the pre-defined "android" transformation use: console.log(StyleDictionaryPackage.transformGroup['android']);
+    transforms: [ "attribute/cti", "name/cti/camel", "size/pxToDp"]
+});
 
-  console.log('Build started...');
+StyleDictionaryPackage.transformGroup['android'];
+
+console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
