@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <% _.each(allProperties, function(prop) {
-    %><item name="<%= prop.name %>"><%= prop.value %></item><% if (prop.attributes && prop.attributes.comment) { %><!-- <%= prop.attributes.comment %> --><% } %>
-    <% }); %>
-</resources>

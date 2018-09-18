@@ -6,7 +6,7 @@ var allProperties = _.each(allProperties, function(prop) {
         prop.tag = 'color';
     } else if(prop.type === 'size') {
         prop.tag = 'dimen';
-    } else if(prop.type === 'time') {
+    } else if(prop.type === 'time' || prop.type === 'opacity' || prop.type === 'multiplier') {
         prop.tag = 'double';
     } else if(prop.type === 'content') {
         prop.tag = 'string';
@@ -17,6 +17,6 @@ var allProperties = _.each(allProperties, function(prop) {
 %>
 <resources>
     <% _.each(allProperties, function(prop) {
-    %><<%= prop.tag %> name="<%= prop.name %>"><%= prop.value %></<%= prop.tag %>><% if (prop.attributes && prop.attributes.comment) { %><!-- <%= prop.attributes.comment %> --><% } %>
+    %><<%= prop.tag %> name="<%= prop.name %>"><%= prop.value %></<%= prop.tag %>><% if (prop.comment) { %><!-- <%= prop.comment %> --><% } %>
     <% }); %>
 </resources>

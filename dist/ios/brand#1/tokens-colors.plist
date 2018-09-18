@@ -3,10 +3,8 @@
 <plist version="1.0">
 
 <dict>
-    <key>colorStyle</key>
-    <dict>
-    <key>tokenAliasColorBrandPrimary</key><string>#3B5998</string>
-    <key>tokenAliasColorBrandSecondary</key><string>#4267B2</string>
+    <key>tokenAliasColorBrandPrimary</key><string>#3B5998</string><!-- this is a comment -->
+    <key>tokenAliasColorBrandSecondary</key><string>#4267B2</string><!-- this one is a comment too -->
     <key>tokenColorPrimary</key><string>#3B5998</string>
     <key>tokenColorSecondary</key><string>#4267B2</string>
     <key>tokenColorGreen</key><string>#4A8C70</string><!-- look how this comment will appear in the generated files -->
@@ -36,6 +34,5 @@
     <key>tokenColorSocialInstagram</key><string>#d93175</string>
     <key>tokenColorSocialLinkedin</key><string>#0076b7</string>
     
-	</dict>
 </dict>
 </plist>

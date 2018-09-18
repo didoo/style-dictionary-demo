@@ -76,12 +76,15 @@ function getStyleDictionaryConfig(brand, platform) {
                 "prefix": "token",
                 "files": [
                     {
-                        "destination": "tokens-all-generic.plist",
-                        "template": "ios/generic.plist"
+                        "destination": "tokens-all.plist",
+                        "template": "ios/plist"
                     },
                     {
                         "destination": "tokens-colors.plist",
-                        "template": "ios/colors.plist"
+                        "template": "ios/plist",
+                        "filter":{
+                            "type": "color"
+                        }
                     }
                 ]
             },
@@ -93,16 +96,15 @@ function getStyleDictionaryConfig(brand, platform) {
                 "prefix": "token",
                 "files": [
                     {
-                        "destination": "tokens-all-generic.xml",
-                        "template": "android/generic"
-                    },
-                    {
-                        "destination": "tokens-all-unified.xml",
-                        "template": "android/unified"
+                        "destination": "tokens-all.xml",
+                        "template": "android/xml"
                     },
                     {
                         "destination": "tokens-colors.xml",
-                        "template": "android/colors"
+                        "template": "android/xml",
+                        "filter":{
+                            "type": "color"
+                        }
                     }
                 ]
             }
@@ -123,28 +125,18 @@ StyleDictionaryPackage.registerFormat({
 });
 
 StyleDictionaryPackage.registerTemplate({
-    name: 'ios/generic.plist',
-    template: __dirname + '/templates/ios-generic.template'
+    name: 'ios/plist',
+    template: __dirname + '/templates/ios-plist.template'
 });
 
 StyleDictionaryPackage.registerTemplate({
-    name: 'ios/colors.plist',
-    template: __dirname + '/templates/ios-colors.template'
-});
-
-StyleDictionaryPackage.registerTemplate({
-    name: 'android/generic',
-    template: __dirname + '/templates/android-generic.template'
+    name: 'android/xml',
+    template: __dirname + '/templates/android-xml.template'
 });
 
 StyleDictionaryPackage.registerTemplate({
     name: 'android/colors',
-    template: __dirname + '/templates/android-colors.template'
-});
-
-StyleDictionaryPackage.registerTemplate({
-    name: 'android/unified',
-    template: __dirname + '/templates/android-unified.template'
+    template: __dirname + '/templates/android-xml.template'
 });
 
 // I wanted to use this custom transform instead of the "prefix" property applied to the platforms

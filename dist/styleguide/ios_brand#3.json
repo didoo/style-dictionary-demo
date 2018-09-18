@@ -448,19 +448,17 @@
   {
     "value": "#4a8c70",
     "type": "color",
-    "attributes": {
-      "comment": "look how this comment will appear in the generated files",
-      "category": "color",
-      "type": "green"
-    },
+    "comment": "look how this comment will appear in the generated files",
     "original": {
       "value": "#4A8C70",
       "type": "color",
-      "attributes": {
-        "comment": "look how this comment will appear in the generated files"
-      }
+      "comment": "look how this comment will appear in the generated files"
     },
     "name": "token-color-green",
+    "attributes": {
+      "category": "color",
+      "type": "green"
+    },
     "path": [
       "color",
       "green"

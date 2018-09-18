@@ -3,8 +3,8 @@
 <plist version="1.0">
 
 <dict>
-    <key>tokenAliasColorBrandPrimary</key><string>#3B5998</string>
-    <key>tokenAliasColorBrandSecondary</key><string>#4267B2</string>
+    <key>tokenAliasColorBrandPrimary</key><string>#EA4335</string>
+    <key>tokenAliasColorBrandSecondary</key><string>#34A853</string>
     <key>tokenAvatarSizeXxsm</key><string>36pt</string>
     <key>tokenAvatarSizeSm</key><string>72pt</string>
     <key>tokenAvatarSizeMd</key><string>90pt</string>
@@ -27,8 +27,8 @@
     <key>tokenButtonBorderWidth</key><string>1pt</string>
     <key>tokenButtonHeight</key><string>48pt</string>
     <key>tokenButtonHeightSmall</key><string>44pt</string>
-    <key>tokenColorPrimary</key><string>#3B5998</string>
-    <key>tokenColorSecondary</key><string>#4267B2</string>
+    <key>tokenColorPrimary</key><string>#EA4335</string>
+    <key>tokenColorSecondary</key><string>#34A853</string>
     <key>tokenColorGreen</key><string>#4A8C70</string><!-- look how this comment will appear in the generated files -->
     <key>tokenColorBlue</key><string>#14213D</string>
     <key>tokenColorYellow</key><string>#FCA311</string>
@@ -43,7 +43,7 @@
     <key>tokenColorGray24</key><string>#c4c4c4</string>
     <key>tokenColorGray12</key><string>#e0e0e0</string>
     <key>tokenColorGray3</key><string>#f6f6f6</string>
-    <key>tokenColorActionPrimary</key><string>#3B5998</string>
+    <key>tokenColorActionPrimary</key><string>#EA4335</string>
     <key>tokenColorActionDestructive</key><string>#BF0603</string>
     <key>tokenColorBorder</key><string>#e0e0e0</string>
     <key>tokenColorUserAuthenticated</key><string>#4A8C70</string>
@@ -100,3 +100,4 @@
     <key>tokenFontFamilyCustom</key><string>UniNeue</string>
     
 </dict>
+</plist>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resources>
-    <color name="tokenAliasColorBrandPrimary">#3B5998</color>
-    <color name="tokenAliasColorBrandSecondary">#4267B2</color>
+    <color name="tokenAliasColorBrandPrimary">#3B5998</color><!-- this is a comment -->
+    <color name="tokenAliasColorBrandSecondary">#4267B2</color><!-- this one is a comment too -->
     <color name="tokenColorPrimary">#3B5998</color>
     <color name="tokenColorSecondary">#4267B2</color>
     <color name="tokenColorGreen">#4A8C70</color><!-- look how this comment will appear in the generated files -->

@@ -11,9 +11,7 @@
         "green": {
             "value": "#4A8C70",
             "type": "color",
-            "attributes": {
-                "comment": "look how this comment will appear in the generated files"
-            }
+            "comment": "look how this comment will appear in the generated files"
         },
         "blue": {
             "value": "#14213D",

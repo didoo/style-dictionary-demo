@@ -3,8 +3,6 @@
 <plist version="1.0">
 
 <dict>
-    <key>colorStyle</key>
-    <dict>
     <key>tokenAliasColorBrandPrimary</key><string>#EA4335</string>
     <key>tokenAliasColorBrandSecondary</key><string>#34A853</string>
     <key>tokenColorPrimary</key><string>#EA4335</string>
@@ -36,6 +34,5 @@
     <key>tokenColorSocialInstagram</key><string>#d93175</string>
     <key>tokenColorSocialLinkedin</key><string>#0076b7</string>
     
-	</dict>
 </dict>
 </plist>
