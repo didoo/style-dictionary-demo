@@ -11,8 +11,8 @@
   "author": "Cristiano Rastelli",
   "license": "MIT",
   "devDependencies": {
+    "chokidar-cli": "^1.2.0",
     "handlebars": "^4.0.11",
-    "style-dictionary": "^2.2.1",
-    "chokidar-cli": "^1.2.0"
+    "style-dictionary": "^2.2.1"
   }
 }
